@@ -1,0 +1,122 @@
+
+- story: Hỏi về hội đồng trường
+  steps:
+  - intent: ask_hoi_dong_truong
+  - action: action_hoi_dong_truong
+
+- story: Hỏi về ban giám hiệu
+  steps:
+  - intent: ask_ban_giam_hieu
+  - action: action_ban_giam_hieu
+
+- story: Hỏi về đảng bộ, đảng ủy
+  steps:
+  - intent: ask_dang
+  - action: action_thong_tin_dang
+
+- story: Hỏi về trường ctump (mục tiêu, tầm nhìn, tltgd, slogan)
+  steps:
+  - intent: ask_thong_tin_truong
+  - action: action_thong_tin_truong
+
+# ----loc-------
+
+- story: xin giấy tạm hoãn nghĩa vụ
+  steps:
+    - intent: ask_dang_ky_giay_xac_nhan
+    - slot_was_set:
+      - giayxacnhan: "GiayTamHoanNghiaVu"
+    - action: action_giay_xac_nhan
+
+- story: Xin giấy vay vốn
+  steps:
+    - intent: ask_dang_ky_giay_xac_nhan
+    - slot_was_set:
+      - giayxacnhan: "GiayVayVon"
+    - action: action_giay_xac_nhan
+    
+- story: Xin giấy giảm thuế thu nhập
+  steps:
+    - intent: ask_dang_ky_giay_xac_nhan
+    - slot_was_set:
+      - giayxacnhan: "GiamThue"
+    - action: action_giay_xac_nhan
+  
+
+
+- story: xin trợ cấp
+  steps:
+    - intent: ask_nhan_tro_cap
+    - slot_was_set:
+      - tro_cap
+    - action: action_tro_cap
+
+- story: Thẻ thư viện, trung tâm học liệu
+  steps:
+    - intent: ask_the_thu_vien_tthl
+    - slot_was_set:
+      - the_tv_tthl
+    - action: action_thuvien_tthl
+
+- story: Giấy công tác
+  steps:
+    - intent: ask_giay_cong_tac
+    - slot_was_set:
+      - giay_cong_tac
+    - action: action_giay_cong_tac
+
+- story: Xin cấp lại thẻ SV
+  steps:
+    - intent: ask_cap_the_sv
+    - slot_was_set:
+      - the_sinh_vien
+    - action: action_cap_the_sv
+    
+- story: Học bổng tài trợ/ học bổng khuyến học
+  steps:
+    - intent: ask_hoc_bong
+    - slot_was_set:
+      - hoc_bong
+    - action: action_hoc_bong
+
+- story: Bảo lưu, thôi học, du lịch, học lại
+  steps:
+    - intent: ask_baoluu_thoihoc
+    - slot_was_set:
+      - baoluu_thoihoc
+    - action: action_baoluu_thoihoc
+
+- story: Cấp lại, thay đổi thông tin thẻ BHYT
+  steps:
+    - intent: ask_caplai_BHYT
+    - slot_was_set:
+      - the_BHYT
+    - action: action_cap_thaydoi_BHYT
+
+- story: Cấp lại tài khoản quản lý đào tạo
+  steps:
+    - intent: ask_caplai_qldt
+    - slot_was_set:
+      - taikhoan_QLDT
+    - action: action_caplai_tk_QLDT
+
+- story: Cấp lại email sinh viên
+  steps:
+    - intent: ask_caplai_email_sv
+    - slot_was_set:
+      - email_sv
+    - action: action_caplai_email
+
+- story: Cấp lại/ thanh phí BHTN
+  steps:
+    - intent: ask_caplai_thanhphi_BHTN
+    - slot_was_set:
+      - caplai_thanhphi_BHTN
+    - action: action_caplai_thanhphi_BHTN
+
+
+
+# - story: hỏi thông tin khoa phòng ban
+#   steps:
+#     - intent: ask_thongtin_khoa_phong_ban
+#     - action: action_thong_tin_khoa

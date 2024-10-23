@@ -1,0 +1,463 @@
+version: "3.1"
+stories:
+
+
+- story: Hỏi hoc phi chung
+  steps:
+    - intent: ask_hocphi
+    - action: action_goi_y_hocphi
+
+- story: Hỏi hoc phí nganh
+  steps:
+    - intent: ask_hocphi_nganh
+    - slot_was_set:
+      - hocphi_nganh
+    - action: action_hocphi_nganh
+
+
+- story: Hỏi CTDT chung
+  steps:
+    - intent: ask_CTDT
+    - action: action_goi_y_CTDT
+
+
+- story: Hỏi CTDT nganh
+  steps:
+    - intent: ask_CTDT_nganh
+    - slot_was_set:
+      - CTDT_nganh
+    - action: action_CTDT_nganh
+
+
+- story: Hỏi chung về đại học, lt, sdh
+  steps:
+    - intent: ask_daihoc_lienthong_saudaihoc
+    - action: action_goi_y_info_daihoc_lienthong_saudaihoc
+
+- story: Hỏi thông tin tuyển sinh chung
+  steps:
+    - intent: ask_thong_tin_tuyen_sinh
+    - action: action_goi_y_thong_tin_tuyen_sinh
+
+- story: Hỏi thông tin tuyển sinh từng ngành
+  steps:
+    - intent: ask_thong_tin_tuyen_sinh_tung_nganh
+    - slot_was_set:
+      - ten_nganh
+    - action: action_thong_tin_tuyen_sinh_tung_nganh
+
+- story: Hỏi điểm chuẩn từng ngành
+  steps:
+    - intent: ask_diem_chuan_tung_nganh
+    - slot_was_set:
+      - ten_nganh
+    - action: action_diem_chuan_tung_nganh
+
+
+- story: Hỏi chỉ tiêu từng ngành
+  steps:
+    - intent: ask_chi_tieu_tung_nganh
+    - slot_was_set:
+      - ten_nganh
+    - action: action_chi_tieu_tung_nganh
+
+- story: Hỏi thanh toán học phí
+  steps:
+    - intent: ask_thanh_toan_hoc_phi
+    - action: action_thanh_toan_hoc_phi
+
+- story: Hỏi thông tin tuyển sinh đại học chính quy
+  steps:
+    - intent: ask_tuyen_sinh_dh_sdh_lt
+    - slot_was_set:
+      - tuyen_sinh_daihoc_chinhquy
+    - action: action_goi_y_tuyen_sinh_dai_hoc
+
+- story: Hỏi quy trình tuyển sinh chung chung
+  steps:
+  - intent: ask_quy_trinh
+  - action: action_goi_y_quy_trinh_tuyen_sinh
+
+- story: Hỏi quy trình tuyển sinh đh lt sdh
+  steps:
+  - intent: ask_quy_trinh_tuyen_sinh_dh_lt_sdh
+  - action: action_quy_trinh_tuyen_sinh_dh_lt_sdh
+
+- story: Hỏi về đối tượng chung chung
+  steps:
+  - intent: ask_doi_tuong_con_nguoi
+  - action: action_goi_y_doi_tuong
+
+- story: Hỏi về đối tượng tuyển sinh
+  steps:
+  - intent: ask_doi_tuong_tuyen_sinh_dh_lt_sdh
+  - action: action_doi_tuong_tuyen_sinh_dh_lt_sdh
+
+
+- story: Hỏi thông tin kỹ túc xá
+  steps:
+  - intent: ask_thong_tin_ky_tuc_xa
+  - action: action_thong_tin_ky_tuc_xa
+
+
+- story: hỏi địa điểm khoa
+  steps:
+    - intent: ask_diadiem_khoa
+    - slot_was_set:
+      - ten_khoa
+    - action: action_diadiem_khoa
+
+- story: hỏi thông tin ban giám hiệu
+  steps:
+    - intent: ask_thong_tin_hieu_ban_giam_hieu
+    - action: action_thong_tin_hieu_ban_giam_hieu
+
+
+- story: hỏi đk nhận học bổng
+  steps:
+    - intent: ask_dieu_kien_nhan_hoc_bong
+    - action: utter_ask_dieu_kien_nhan_hoc_bong
+
+
+- story: hỏi chính sách hỗ trợ sv
+  steps:
+    - intent: ask_chinh_sach_ho_tro_sinh_vien
+    - action: utter_ask_chinh_sach_ho_tro_sinh_vien
+
+
+- story: hỏi môn y đức
+  steps:
+    - intent: ask_mon_hoc_y_duc
+    - action: utter_ask_mon_hoc_y_duc
+
+- story: hỏi số lượng khoa
+  steps:
+    - intent: ask_so_luong_khoa
+    - action: utter_ask_so_luong_khoa
+
+- story: hỏi địa chỉ trường
+  steps:
+    - intent: ask_dia_chi_cua_truong
+    - action: utter_ask_dia_chi_cua_truong
+
+
+- story: hỏi số lượng sv mỗi năm
+  steps:
+    - intent: ask_sinh_vien_cua_truong_moi_nam
+    - action: utter_ask_sinh_vien_cua_truong_moi_nam
+
+- story: hỏi cơ sở vật chất
+  steps:
+    - intent: ask_csvc_cua_truong
+    - action: utter_ask_csvc_cua_truong
+
+- story: hỏi số ngành đào tạo
+  steps:
+    - intent: ask_so_nganh_dao_tao
+    - action: utter_ask_so_nganh_dao_tao
+
+
+- story: hỏi yêu cầu tuyển sinh
+  steps:
+    - intent: ask_yeu_cau_tuyen_sinh
+    - action: utter_ask_yeu_cau_tuyen_sinh
+
+- story: hỏi ngành đào tạo mới
+  steps:
+    - intent: ask_nganh_dao_tao_moi
+    - action: utter_ask_nganh_dao_tao_moi
+
+- story: hỏi chỉ tiêu xét tuyển mỗi năm
+  steps:
+    - intent: ask_tieu_chi_xet_tuyen_moi_nam
+    - action: utter_ask_tieu_chi_xet_tuyen_moi_nam
+
+
+- story: hỏi cách đăng ký xét tuyển
+  steps:
+    - intent: ask_cach_dang_ky_xet_tuyen
+    - action: utter_ask_cach_dang_ky_xet_tuyen
+
+- story: hỏi đào tạo quốc tế
+  steps:
+    - intent: ask_dao_tao_quoc_te
+    - action: utter_ask_dao_tao_quoc_te
+
+- story: hỏi thi tuyển sinh ctump
+  steps:
+    - intent: ask_thi_tuyen_sinh_ctump
+    - action: utter_ask_thi_tuyen_sinh_ctump
+
+
+- story: hỏi đào tạo song ngành
+  steps:
+    - intent: ask_dao_tao_song_nganh
+    - action: utter_ask_dao_tao_song_nganh
+
+- story: hỏi số tín chỉ mỗi năm
+  steps:
+    - intent: ask_tin_chi_moi_nam
+    - action: utter_ask_tin_chi_moi_nam
+
+- story: hỏi năm nhất có nên thực hành
+  steps:
+    - intent: ask_thuc_hanh_benh_vien_nam1
+    - action: utter_ask_thuc_hanh_benh_vien_nam1
+
+
+- story: hỏi trọ sinh viên gần trường
+  steps:
+    - intent: ask_tim_tro_gan_truong
+    - action: utter_ask_tim_tro_gan_truong
+
+- story: hỏi câu lạc bộ trường
+  steps:
+    - intent: ask_clb_cua_truong
+    - action: utter_ask_clb_cua_truong
+
+- story: hỏi hoạt động ngoại khóa
+  steps:
+    - intent: ask_hoat_dong_ngoai_khoa
+    - action: utter_ask_hoat_dong_ngoai_khoa
+
+- story: hỏi hỗ trợ sinh viên làm thêm
+  steps:
+    - intent: ask_ho_tro_sinh_vien_lam_them
+    - action: utter_ask_ho_tro_sinh_vien_lam_them
+
+- story: hỏi trao đổi ngoại khóa sv
+  steps:
+    - intent: ask_trao_doi_sinh_vien
+    - action: utter_ask_trao_doi_sinh_vien
+
+
+
+- story: hỏi cơ hội thực tập bệnh viện
+  steps:
+    - intent: ask_co_hoi_thuc_tap_benh_vien
+    - action: utter_ask_co_hoi_thuc_tap_benh_vien
+
+- story: hỏi căn tin trường
+  steps:
+    - intent: ask_can_tin_truong
+    - action: utter_ask_can_tin_truong
+
+- story: hỏi hoạt động thể thao sv
+  steps:
+    - intent: ask_hoat_dong_the_thao_cho_sv
+    - action: utter_ask_hoat_dong_the_thao_cho_sv
+
+
+
+- story: hỏi trung tâm nghiên cứu y học
+  steps:
+    - intent: ask_trung_tam_nghien_cuu_yhoc
+    - action: utter_ask_trung_tam_nghien_cuu_yhoc
+
+- story: hỏi đăng ký tham gia trung tâm y học
+  steps:
+    - intent: ask_sv_tham_gia_trung_tam_nghien_cuu_yhoc
+    - action: utter_ask_sv_tham_gia_trung_tam_nghien_cuu_yhoc
+
+- story: hỏi hỗ trợ sinh viên khởi nghiệp
+  steps:
+    - intent: ask_ho_tro_sinh_vien_khoi_nghiep
+    - action: utter_ask_ho_tro_sinh_vien_khoi_nghiep
+
+
+
+- story: hỏi tham gia nghiên cứu với giảng viên
+  steps:
+    - intent: ask_tham_gia_nghien_cuu_vs_giang_vien
+    - action: utter_ask_tham_gia_nghien_cuu_vs_giang_vien
+
+- story: hỏi hỗ trợ nghiên cứu sinh viên
+  steps:
+    - intent: ask_quy_ho_tro_nghien_cuu_sv
+    - action: utter_ask_quy_ho_tro_nghien_cuu_sv
+
+- story: hỏi hợp tác nghiên cứu với bệnh viện
+  steps:
+    - intent: ask_hop_tac_nghien_cuu_vs_benh_vien
+    - action: utter_ask_hop_tac_nghien_cuu_vs_benh_vien
+
+
+
+- story: hỏi sinh viên có thể nghiên cứu từ năm nào
+  steps:
+    - intent: ask_sinh_vien_nghien_cuu_tu_nam_nao
+    - action: utter_ask_sinh_vien_nghien_cuu_tu_nam_nao
+
+- story: hỏi thiết bị nghiên cứu hiện đại
+  steps:
+    - intent: ask_thiet_bi_nghien_cuu_hien_dai
+    - action: utter_ask_thiet_bi_nghien_cuu_hien_dai
+
+- story: hỏi các nghiên cứu hàng năm
+  steps:
+    - intent: ask_nghien_cuu_hang_nam
+    - action: utter_ask_nghien_cuu_hang_nam
+
+
+
+- story: hỏi giờ mở thư viện
+  steps:
+    - intent: ask_gio_mo_cua_thu_vien
+    - action: utter_ask_gio_mo_cua_thu_vien
+
+
+- story: hỏi phòng tự học
+  steps:
+    - intent: ask_phong_tu_hoc_sinh_vien
+    - action: utter_ask_phong_tu_hoc_sinh_vien
+
+- story: hỏi hệ thống elearning
+  steps:
+    - intent: ask_he_thong_elearning
+    - action: utter_ask_he_thong_elearning
+
+- story: hỏi wifi
+  steps:
+    - intent: ask_wifi_free
+    - action: utter_ask_wifi_free
+
+
+
+
+- story: hỏi khuôn viên trường
+  steps:
+    - intent: ask_khuon_vien_truong
+    - action: utter_ask_khuon_vien_truong
+
+- story: hỏi chổ đổ xe sinh viên
+  steps:
+    - intent: ask_cho_do_xe_sinh_vien
+    - action: utter_ask_cho_do_xe_sinh_vien
+
+- story: hỏi vay vốn sinh viên
+  steps:
+    - intent: ask_ho_tro_vay_von_sinh_vien
+    - action: utter_ask_ho_tro_vay_von_sinh_vien
+
+
+
+
+- story: hỏi hỗ trợ thực tập sinh viên
+  steps:
+    - intent: ask_ho_tro_thuc_tap_sinh_vien
+    - action: utter_ask_ho_tro_thuc_tap_sinh_vien
+
+- story: hỏi hỗ trợ thực tập sinh viên y khoa
+  steps:
+    - intent: ask_ho_tro_thuc_tap_sinh_vien_y_khoa
+    - action: utter_ask_ho_tro_thuc_tap_sinh_vien_y_khoa
+
+- story: hỏi thực tập ở ngoài tỉnh
+  steps:
+    - intent: ask_ho_tro_thuc_tap_sinh_vien_ngoai_tinh
+    - action: utter_ask_ho_tro_thuc_tap_sinh_vien_ngoai_tinh
+
+
+- story: hỏi bệnh viện liên kết với trường
+  steps:
+    - intent: ask_benh_vien_lien_ket_voi_truong
+    - action: utter_ask_benh_vien_lien_ket_voi_truong
+
+- story: hỏi cơ hội xin việc sv
+  steps:
+    - intent: ask_co_hoi_xin_viec_sinh_vien
+    - action: utter_ask_co_hoi_xin_viec_sinh_vien
+
+- story: hỏi điều kiện trao đổi sinh viên
+  steps:
+    - intent: ask_dieu_kien_trao_doi_sinh_vien
+    - action: utter_ask_dieu_kien_trao_doi_sinh_vien
+
+
+
+
+
+- story: hỏi trao đổi sv quốc tế
+  steps:
+    - intent: ask_trao_doi_voi_sinh_vien_quoc_te_nao
+    - action: utter_ask_trao_doi_voi_sinh_vien_quoc_te_nao
+
+- story: hỏi trường quốc tế liên kết
+  steps:
+    - intent: ask_truong_quoc_te_lien_ket_voi_ctump
+    - action: utter_ask_truong_quoc_te_lien_ket_voi_ctump
+
+- story: hỏi sv du học ngắn hạn
+  steps:
+    - intent: ask_sinh_vien_co_tham_gia_du_hoc_ngan_han
+    - action: utter_ask_sinh_vien_co_tham_gia_du_hoc_ngan_han
+
+
+
+- story: hỏi trình độ của giảng viên
+  steps:
+    - intent: ask_trinh_do_cua_giang_vien
+    - action: utter_ask_trinh_do_cua_giang_vien
+
+- story: hỏi giảng viên có bằng quốc tế không
+  steps:
+    - intent: ask_giang_vien_co_bang_quoc_te_khong
+    - action: utter_ask_giang_vien_co_bang_quoc_te_khong
+
+- story: hỏi cơ hội học với giáo sư
+  steps:
+    - intent: ask_co_hoi_hoc_voi_giao_su
+    - action: utter_ask_co_hoi_hoc_voi_giao_su
+
+- story: hỏi chất lượng giảng dạy
+  steps:
+    - intent: ask_chat_luong_giang_day
+    - action: utter_ask_chat_luong_giang_day
+
+- story: hỏi thành tựu của trường
+  steps:
+    - intent: ask_thanh_tuu_cua_truong
+    - action: utter_ask_thanh_tuu_cua_truong
+
+- story: hỏi cựu sinh viên có thành tích gì
+  steps:
+    - intent: ask_cuu_sinh_vien_co_thanh_tich_gi
+    - action: utter_ask_cuu_sinh_vien_co_thanh_tich_gi
+
+
+- story: hỏi sự kiện quốc tế
+  steps:
+    - intent: ask_truong_co_to_chuc_su_kien_qte
+    - action: utter_ask_truong_co_to_chuc_su_kien_qte
+
+- story: hỏi ctrinh tình nguyện sinh viên
+  steps:
+    - intent: ask_chuong_trinh_tinh_nguyen_svien
+    - action: utter_ask_chuong_trinh_tinh_nguyen_svien
+
+- story: hỏi đăng ký ctrinh tình nguyện
+  steps:
+    - intent: ask_dang_ky_ctrinh_tinh_nguyen
+    - action: utter_ask_dang_ky_ctrinh_tinh_nguyen
+
+
+- story: hỏi tổ chức tình nguyện
+  steps:
+    - intent: ask_to_chuc_hoat_dong_tinh_nguyen
+    - action: utter_ask_to_chuc_hoat_dong_tinh_nguyen
+
+- story: hỏi khóa kĩ năng mềm
+  steps:
+    - intent: ask_to_chuc_khoa_ki_nang_mem
+    - action: utter_ask_to_chuc_khoa_ki_nang_mem
+
+- story: hỏi kĩ năng học ngành y
+  steps:
+    - intent: ask_cai_thien_ki_nang_hoc_nganh_y
+    - action: utter_ask_cai_thien_ki_nang_hoc_nganh_y
+
+
+- story: hỏi sinh viên tiếp cận công nghệ mới
+  steps:
+    - intent: ask_svien_su_dung_cong_nghe_moi
+    - action: utter_ask_svien_su_dung_cong_nghe_moi

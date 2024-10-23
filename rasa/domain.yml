@@ -1,0 +1,678 @@
+version: "3.1"
+
+intents:
+  - ask_hello
+  # - ask_dang_ky_giay_xac_nhan
+  # - ask_thongtin_khoa_phong_ban
+  # - ask_nhan_tro_cap
+  # - ask_the_thu_vien_tthl
+  # - ask_giay_cong_tac
+  # - ask_cap_the_sv
+  # - ask_hoc_bong
+  # - ask_baoluu_thoihoc
+  # - ask_caplai_BHYT
+  # - ask_caplai_qldt
+  # - ask_caplai_email_sv
+  # - ask_caplai_thanhphi_BHTN
+
+  - ask_hocphi
+  - ask_hocphi_nganh
+  - ask_CTDT
+  - ask_CTDT_nganh
+
+  - ask_daihoc_lienthong_saudaihoc
+  - ask_thong_tin_tuyen_sinh
+  - ask_thong_tin_tuyen_sinh_tung_nganh
+  - ask_diem_chuan_tung_nganh
+  - ask_chi_tieu_tung_nganh
+  - ask_tuyen_sinh_dh_sdh_lt
+  - ask_quy_trinh
+  - ask_quy_trinh_tuyen_sinh_dh_lt_sdh
+  - ask_doi_tuong_con_nguoi
+  - ask_doi_tuong_tuyen_sinh_dh_lt_sdh
+  - ask_thanh_toan_hoc_phi
+  - ask_diadiem_khoa
+  # - ask_email_khoa
+  - ask_thong_tin_ky_tuc_xa
+  # - ask_khoa
+  # - ask_dang_bo_truong_ctump
+  # - ask_dang_uy_truong_ctump
+  # - ask_dang
+  # - ask_ban_giam_hieu
+  # - ask_hoi_dong_truong
+  # - ask_thong_tin_truong
+  - ask_thong_tin_hieu_ban_giam_hieu
+
+  - ask_dieu_kien_nhan_hoc_bong
+  - ask_chinh_sach_ho_tro_sinh_vien
+  - ask_mon_hoc_y_duc
+  - ask_so_luong_khoa
+  - ask_dia_chi_cua_truong
+  - ask_sinh_vien_cua_truong_moi_nam
+  - ask_csvc_cua_truong
+  - ask_so_nganh_dao_tao
+  - ask_yeu_cau_tuyen_sinh
+  - ask_nganh_dao_tao_moi
+  - ask_tieu_chi_xet_tuyen_moi_nam
+  - ask_cach_dang_ky_xet_tuyen
+  - ask_dao_tao_quoc_te
+  - ask_thi_tuyen_sinh_ctump
+  - ask_dao_tao_song_nganh
+  - ask_tin_chi_moi_nam
+  - ask_thuc_hanh_benh_vien_nam1
+  - ask_tim_tro_gan_truong
+  - ask_clb_cua_truong
+  - ask_hoat_dong_ngoai_khoa
+  - ask_ho_tro_sinh_vien_lam_them
+  - ask_trao_doi_sinh_vien
+  - ask_co_hoi_thuc_tap_benh_vien
+  - ask_can_tin_truong
+  - ask_hoat_dong_the_thao_cho_sv
+  - ask_trung_tam_nghien_cuu_yhoc
+  - ask_sv_tham_gia_trung_tam_nghien_cuu_yhoc
+  - ask_ho_tro_sinh_vien_khoi_nghiep
+  - ask_tham_gia_nghien_cuu_vs_giang_vien
+  - ask_quy_ho_tro_nghien_cuu_sv
+  - ask_hop_tac_nghien_cuu_vs_benh_vien
+  - ask_sinh_vien_nghien_cuu_tu_nam_nao
+  - ask_thiet_bi_nghien_cuu_hien_dai
+  - ask_nghien_cuu_hang_nam
+  - ask_gio_mo_cua_thu_vien
+  - ask_phong_tu_hoc_sinh_vien
+  - ask_he_thong_elearning
+  - ask_wifi_free
+  - ask_khuon_vien_truong
+  - ask_cho_do_xe_sinh_vien
+  - ask_ho_tro_vay_von_sinh_vien
+  - ask_ho_tro_thuc_tap_sinh_vien
+  - ask_ho_tro_thuc_tap_sinh_vien_y_khoa
+  - ask_ho_tro_thuc_tap_sinh_vien_ngoai_tinh
+  - ask_benh_vien_lien_ket_voi_truong
+  - ask_co_hoi_xin_viec_sinh_vien
+  - ask_dieu_kien_trao_doi_sinh_vien
+  - ask_trao_doi_voi_sinh_vien_quoc_te_nao
+  - ask_truong_quoc_te_lien_ket_voi_ctump
+  - ask_sinh_vien_co_tham_gia_du_hoc_ngan_han
+  - ask_trinh_do_cua_giang_vien
+  - ask_giang_vien_co_bang_quoc_te_khong
+  - ask_co_hoi_hoc_voi_giao_su
+  - ask_chat_luong_giang_day
+  - ask_thanh_tuu_cua_truong
+  - ask_cuu_sinh_vien_co_thanh_tich_gi
+  - ask_truong_co_to_chuc_su_kien_qte
+  - ask_chuong_trinh_tinh_nguyen_svien
+  - ask_dang_ky_ctrinh_tinh_nguyen
+  - ask_to_chuc_hoat_dong_tinh_nguyen
+  - ask_to_chuc_khoa_ki_nang_mem
+  - ask_cai_thien_ki_nang_hoc_nganh_y
+  - ask_svien_su_dung_cong_nghe_moi
+  
+
+entities:
+  - dang_bo_dang_uy:
+      roles:
+      - dang_bo
+      - dang_uy
+     
+  - hoi_dong_truong:
+      roles:
+      - thong_tin_co_ban
+      - chu_tich
+      - thanh_vien
+      - thu_ky
+      - nhiem_vu
+      - so_do_to_chuc
+
+  - ban_giam_hieu:
+      roles:
+      - hieu_truong
+      - pho_hieu_truong
+
+  - thong_tin_truong:
+      roles:
+      - thong_tin
+      - su_mang
+      - tam_nhin
+      - gia_tri_cot_loi
+      - triet_ly_giao_duc
+      - muc_tieu
+      - slogan
+
+  - ask:
+      roles:
+      - where
+      - email
+      - phone
+      - info
+
+  - giayxacnhan:
+      roles:
+      - GiayVayVon
+      - GiayTamHoanNghiaVu
+      - GiamThue
+  
+  - khoa_phong:
+      roles:
+        - ten_khoa_phong
+        - ten_nganh
+  - tro_cap
+  - the_tv_tthl
+  - giay_CT
+  - the_sinh_vien
+  - hoc_bong
+  - baoluu_thoihoc
+  - the_BHYT
+  - tk_qldt
+  - caplai_email_sv
+  - caplai_thanhphi_bhtn
+
+  - hocphi:
+      roles:
+      - hoi_hocphi
+  - ctdt:
+      roles:
+      - hoi_ctdt
+      - dai_hoc_chinh_quy
+      - sau_dai_hoc
+      - lien_thong
+    
+  - tuyen_sinh:
+      roles:
+      - thong_tin_tuyen_sinh
+  - quy_trinh:
+      roles:
+      - quy_trinh_tuyen_sinh
+  - doi_tuong:
+      roles:
+      - doi_tuong_tuyen_sinh
+  - diem_chuan:
+      roles:
+      - diem_tuyen_sinh_dh
+  - chi_tieu:
+      roles:
+      - chi_tieu_dh
+  - thanh_toan:
+      roles:
+      - thanh_toan_hoc_phi
+  - ky_tuc_xa:
+      roles:
+      - dang_ky_ky_tuc_xa
+  - dia_diem
+
+actions:
+  # - action_dang_bo
+  # - action_dang_uy
+  - action_thong_tin_dang
+  - action_lanh_dao_dang_doan_the
+  - action_thong_tin_hieu_ban_giam_hieu
+  - action_hoi_dong_truong
+  - action_thong_tin_truong
+
+  - action_giay_xac_nhan
+  - action_tro_cap
+  - action_thong_tin_khoa
+  - action_thuvien_tthl
+  - action_giay_cong_tac
+  - action_cap_the_sv
+  - action_hoc_bong
+  - action_baoluu_thoihoc
+  - action_cap_thaydoi_BHYT
+  - action_caplai_tk_QLDT
+  - action_caplai_email
+  - action_caplai_thanhphi_BHTN
+
+  - action_goi_y_hocphi
+  - action_hocphi_nganh
+  - action_goi_y_CTDT
+  - action_CTDT_nganh
+  - action_goi_y_thong_tin_tuyen_sinh
+  - action_thong_tin_tuyen_sinh_tung_nganh
+  - action_diem_chuan_tung_nganh
+  - action_chi_tieu_tung_nganh
+  - action_thanh_toan_hoc_phi
+  - action_goi_y_tuyen_sinh_dai_hoc
+  - action_goi_y_info_daihoc_lienthong_saudaihoc
+  - action_goi_y_quy_trinh_tuyen_sinh
+  - action_quy_trinh_tuyen_sinh_dh_lt_sdh
+  - action_goi_y_doi_tuong
+  - action_doi_tuong_tuyen_sinh_dh_lt_sdh
+  - action_thong_tin_ky_tuc_xa
+  - action_diadiem_khoa
+
+  - action_chatgemini_fallback
+
+  
+slots:
+  giayxacnhan:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: giayxacnhan
+        role: GiayVayVon
+      - type: from_entity
+        entity: giayxacnhan
+        role: GiayTamHoanNghiaVu
+      - type: from_entity
+        entity: giayxacnhan
+        role: GiamThue
+  ten_khoa_phong:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: khoa_phong
+        role: ten_khoa_phong
+  ask:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: ask
+        role: where
+      - type: from_entity
+        entity: ask
+        role: email
+      - type: from_entity
+        entity: ask
+        role: phone
+      - type: from_entity
+        entity: ask
+        role: info
+  tro_cap:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: tro_cap
+  the_tv_tthl: 
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: the_tv_tthl
+  giay_cong_tac:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: giay_CT
+  the_sinh_vien:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: the_sinh_vien
+  hoc_bong:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: hoc_bong
+  baoluu_thoihoc:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: baoluu_thoihoc
+  the_BHYT:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: the_BHYT
+  taikhoan_QLDT:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: tk_qldt
+  email_sv:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: caplai_email_sv
+  caplai_thanhphi_BHTN:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: caplai_thanhphi_bhtn
+
+  hocphi_nganh:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: khoa_phong
+        role: ten_nganh
+
+  CTDT_nganh:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: khoa_phong
+        role: ten_nganh
+
+  tuyen_sinh_daihoc_chinhquy:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: ctdt
+        role: dai_hoc_chinh_quy
+      - type: from_entity
+        entity: ctdt
+        role: lien_thong
+      - type: from_entity
+        entity: ctdt
+        role: sau_dai_hoc
+  ten_khoa:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: khoa_phong
+        role: ten_khoa
+  ten_nganh:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: khoa_phong
+        role: ten_nganh
+
+
+    
+responses: 
+  utter_greet:
+  - text: "Chào! bạn tôi có thể giúp gì cho bạn?"
+  - text: "Xin chào, bạn cần hỗ trợ gì?"
+
+  utter_ask_dieu_kien_nhan_hoc_bong:
+  - text: "Để đủ điều kiện nhận học bổng tại trường Đại học Y Dược Cần Thơ, bạn cần đáp ứng các điều kiện sau:
+  - Đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
+  - Trường phải có đủ các điều kiện bảo đảm chất lượng và chưa vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định của Bộ Giáo dục và Đào tạo.
+  - Không thuộc diện sinh viên dự bị.
+  - Tích lũy đủ học phần, số tín chỉ và hoàn thành các nội dung bắt buộc khác theo yêu cầu của chương trình đào tạo, đạt chuẩn đầu ra của chương trình.
+  - Điểm trung bình tích lũy của toàn khóa học đạt từ trung bình trở lên.
+  - Đóng học phí và bảo hiểm y tế đầy đủ, đúng thời hạn.
+  - Tham gia lao động công ích, hoạt động tình nguyện, và hoạt động xã hội vì cộng đồng phù hợp với năng lực và sức khỏe.
+  Ngoài ra, bạn cũng có thể được xét nhận học bổng khuyến khích học tập hoặc học bổng do các tổ chức, cá nhân trong và ngoài nước tài trợ theo quy định hiện hành.
+  Hãy đảm bảo bạn đáp ứng các điều kiện trên và nộp hồ sơ trực tiếp tại Phòng CTSV để được xem xét nhận học bổng."
+      
+  utter_ask_chinh_sach_ho_tro_sinh_vien:
+  - text: "Có, trường Đại học Y Dược Cần Thơ có các chương trình hỗ trợ sinh viên gặp khó khăn về tài chính, bao gồm học bổng khuyến khích học tập và học bổng do các tổ chức, cá nhân tài trợ. Sinh viên có thể được xét giảm học phí và hưởng các chế độ, chính sách theo quy định hiện hành. Ngoài ra, trường cũng có các dịch vụ công tác xã hội, bao gồm hỗ trợ sinh viên có hoàn cảnh đặc biệt, để giúp đỡ sinh viên trong những trường hợp khó khăn."
+
+
+
+
+
+
+
+
+
+  utter_ask_mon_hoc_y_duc:
+  - text: "Vâng, sinh viên y khoa tại trường chúng tôi được học về y đức như một phần quan trọng trong chương trình đào tạo. Chúng tôi tin rằng y đức là nền tảng đạo đức và chuyên nghiệp trong hành nghề y, vì vậy chúng tôi dành sự chú trọng đặc biệt trong việc trang bị kiến thức và kỹ năng về y đức cho sinh viên.."
+
+  utter_ask_so_luong_khoa:
+  - text: "Trường Đại học Y Dược Cần Thơ có tổng cộng 07 khoa đào tạo, bao gồm: khoa Y, khoa khoa học cơ bản, khoa điều dưỡng, khoa Dược, khoa Răng hàm mặt (RHM), và khoa Y tế công công (YTCC), khoa kĩ thuật y học"
+
+  utter_ask_dia_chi_cua_truong:
+  - text: "Trụ sở chính của Trường Đại học Y Dược Cần Thơ hiện nay được đặt tại địa chỉ 179 đường Nguyễn Văn Cừ, quận Ninh Kiều, thành phố Cần Thơ."
+  
+  utter_ask_sinh_vien_cua_truong_moi_nam:
+  - text: " Hiện tại, trường Đại học Y Dược Cần Thơ có quy mô đào tạo gần 3.000 sinh viên."
+
+  utter_ask_csvc_cua_truong:
+  - text: "Trường Đại học Y Dược Cần Thơ đã không ngừng phát triển và đầu tư vào cơ sở vật chất, nhằm tạo ra môi trường học tập và nghiên cứu hiện đại cho sinh viên và giảng viên.
+  Trường đã có những bước tiến đáng kể trong việc xây dựng và mở rộng cơ sở vật chất, đặc biệt là kể từ năm 2010 khi chuyển về cơ sở mới. Hiện tại, trường có diện tích 30,95 ha, bao gồm các khối khoa, giảng đường, phòng thí nghiệm, và ký túc xá cho sinh viên.
+  Với sự phát triển này, trường đã đáp ứng được nhu cầu về cơ sở vật chất hiện đại, tạo điều kiện thuận lợi cho công tác đào tạo và nghiên cứu. Trường cũng liên tục cải tiến và nâng cấp các điều kiện học tập, nghiên cứu, và ứng dụng công nghệ số trong hoạt động của trường.
+  Do đó, có thể khẳng định rằng Trường Đại học Y Dược Cần Thơ đã trang bị cơ sở vật chất hiện đại và không ngừng nâng cấp để đáp ứng nhu cầu ngày càng cao của sinh viên và giảng viên."
+
+  utter_ask_so_nganh_dao_tao:
+  - text: "Trường Đại học Y Dược Cần Thơ có tổng cộng 10 mã ngành đào tạo, bao gồm:
+  1. Y đa khoa
+  2. Răng hàm mặt
+  3. Dược học
+  4. Y học dự phòng
+  5. Y học cổ truyền
+  6. Y tế công cộng
+  7. Kỹ thuật xét nghiệm y học
+  8. Hộ sinh
+  9. Kỹ thuật hình ảnh y học
+  10. Và nhiều ngành khác.
+  Trường có 4 khoa chính: Khoa Y, Khoa Dược, Khoa Răng hàm mặt, và Khoa Y học cổ truyền và dân tộc học (YTCC).
+  Các chương trình đào tạo được xây dựng theo đơn vị tín chỉ và đáp ứng chuẩn chương trình đào tạo của Bộ Giáo dục và Đào tạo."
+
+
+
+
+
+
+
+  utter_ask_yeu_cau_tuyen_sinh:
+  - text: "Trường Đại học Y Dược Cần Thơ có một số yêu cầu cho việc tuyển sinh, bao gồm:
+- Sinh viên phải đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
+- Điểm của thí sinh phải đảm bảo nguyện vọng 1 hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.
+- Trường có đủ các điều kiện bảo đảm chất lượng và chưa vượt quá năng lực đào tạo theo quy định của Bộ Giáo dục và Đào tạo.
+- Thí sinh tham gia kỳ thi THPT năm 2024 và không sử dụng kết quả bảo lưu.
+- Sinh viên phải chấp hành chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, điều lệ trường đại học và các quy chế, nội quy, quy định của trường.
+- Đảm bảo tiêu chuẩn đầu vào và đầu ra chất lượng cao, cũng như đáp ứng các tiêu chí về sự hài lòng của các bên liên quan và đa dạng hóa loại hình đào tạo.
+Những yêu cầu trên là những điều kiện cơ bản để được xét tuyển vào Trường Đại học Y Dược Cần Thơ."
+  utter_ask_nganh_dao_tao_moi:
+  - text: "Trường Đại học Y Dược Cần Thơ luôn nỗ lực phát triển và mở rộng các ngành đào tạo để đáp ứng nhu cầu xã hội. Trong năm nay, trường có bổ sung thêm ngành học mới là Chuyên ngành đào tạo bác sĩ Y học dự phòng. Ngoài ra, trường cũng đã thành lập khoa Điều dưỡng, mở rộng cơ hội học tập và đào tạo cho sinh viên."
+  utter_ask_tieu_chi_xet_tuyen_moi_nam:
+  - text: "Các điều kiện xét tuyển của trường Đại học Y Dược Cần Thơ có thể thay đổi theo từng năm, tùy thuộc vào các chính sách và quy định của Bộ Giáo dục và Đào tạo cũng như của trường. Do đó, để có thông tin chính xác và cập nhật nhất về các yêu cầu xét tuyển, bạn có thể tham khảo trang web chính thức của trường tại địa chỉ: http://www.ctump.edu.vn/default.aspx?tabid=1037."
+  utter_ask_cach_dang_ky_xet_tuyen:
+  - text: "Để đăng ký xét tuyển vào Trường Đại học Y Dược Cần Thơ, bạn cần thực hiện các bước sau:
+1. Tham gia kỳ thi THPT quốc gia năm 2024 (không sử dụng kết quả bảo lưu).
+2. Đăng ký xét tuyển (ĐKXT) theo hình thức trực tuyến trên hệ thống cổng thông tin tuyển sinh của Bộ Giáo dục và Đào tạo. Thời gian dự kiến ĐKXT là từ ngày 18/7/2024 đến 17 giờ 00 ngày 30/7/2024.
+3. Nộp lệ phí ĐKXT theo hướng dẫn trên hệ thống. Lệ phí là 20.000 đồng/nguyện vọng theo quy định của Bộ Giáo dục và Đào tạo.
+4. Xác nhận đăng ký nguyện vọng trên hệ thống và nộp lệ phí xét tuyển bằng hình thức trực tuyến. Thời gian dự kiến là từ ngày 31/7/2024 đến 17 giờ 00 ngày 06/8/2024.
+5. Sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất).
+6. Điểm của thí sinh phải đảm bảo ngưỡng đảm bảo chất lượng đầu vào do Bộ Giáo dục và Đào tạo công bố đối với các ngành thuộc nhóm ngành sức khỏe.
+7. Xác nhận nguyện vọng học tại trường (xác nhận nhập học ngành trúng tuyển) bằng hình thức trực tuyến trên hệ thống của Bộ Giáo dục và Đào tạo và trên website trường.
+Bạn có thể liên hệ với Phòng Đào tạo Đại học của trường để được hỗ trợ và hướng dẫn cụ thể hơn về thủ tục đăng ký xét tuyển."
+  utter_ask_dao_tao_quoc_te:
+  - text: " Trường Đại học Y Dược Cần Thơ có liên kết với Đại học Y Dược Thành phố Hồ Chí Minh để đào tạo Chuyên khoa cấp I Y học Gia đình. Ngoài ra, trường cũng mở rộng hợp tác đào tạo sau đại học và liên kết với các chương trình, dự án hợp tác quốc tế trong nghiên cứu khoa học. Do đó, có thể nói rằng trường có hợp tác với các tổ chức quốc tế để đào tạo."
+  utter_ask_thi_tuyen_sinh_ctump:
+  - text: "Trường Đại học Y Dược Cần Thơ có thực hiện thi tuyển sinh, cụ thể là xét tuyển kết quả kỳ thi tốt nghiệp THPT năm 2024. Trường áp dụng phương thức xét tuyển đối với các tổ hợp môn B00 (Toán, Hóa, Sinh) và ngành Kỹ thuật Y sinh tổ hợp A00."
+  utter_ask_dao_tao_song_nganh:
+  - text: "Trường Đại học Y Dược Cần Thơ hiện có 3 mã ngành đào tạo chính là Y đa khoa, Răng hàm mặt, và Dược học. Tuy nhiên, tôi không tìm thấy thông tin cụ thể về việc có cung cấp chương trình đào tạo song ngành hay không. Trường đã liên kết với Đại học Y Dược Thành phố Hồ Chí Minh để đào tạo Chuyên khoa cấp I Y học Gia đình và mở rộng các ngành đào tạo khác, nhưng không rõ có bao gồm đào tạo song ngành hay không.
+Nếu bạn muốn tìm hiểu thêm về các chương trình đào tạo của trường, bạn có thể liên hệ trực tiếp với phòng đào tạo của Trường Đại học Y Dược Cần Thơ để được tư vấn và cung cấp thông tin chi tiết hơn."
+  utter_ask_tin_chi_moi_nam:
+  - text: "Số tín chỉ tối thiểu mà mỗi sinh viên phải đăng ký học trong mỗi học kỳ (trừ học kỳ cuối cùng của khóa học) được quy định như sau: a) Khối lượng tối thiểu không ít hơn 2/3 khối lượng trung bình một học kỳ theo kể hoạch học tập chuẩn; b) Khối lượng tối đa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn. c) Trong trường hợp đặc biệt, sinh viên muốn đăng ký học ít hơn số tín chỉ tối thiểu thì phải được sự đồng ý của Trưởng phòng Đào tạo đại học."
+  utter_ask_thuc_hanh_benh_vien_nam1:
+  - text: " Sinh viên năm nhất có cơ hội thực hành tại bệnh viện."
+  utter_ask_tim_tro_gan_truong:
+  - text: " Có rất nhiều lựa chọn chỗ ở quanh trường Đại học Y Dược Cần Thơ. Trong thời gian đầu thành lập, nhà trường đã phải thuê mướn nhiều địa điểm trong thành phố Cần Thơ để phục vụ cho công tác giảng dạy và học tập. Do đó, sinh viên có thể dễ dàng tìm thấy các lựa chọn chỗ ở phù hợp với nhu cầu và điều kiện của mình."
+  utter_ask_clb_cua_truong:
+  - text: " Trường Đại học Y Dược Cần Thơ có nhiều câu lạc bộ dành cho sinh viên tham gia, bao gồm:
+- Đoàn Thanh Niên
+- Hội Sinh Viên
+- Các Câu Lạc Bộ, Đội Nhóm Trực Thuộc Cấp Khoa, Trường
+- Các hoạt động văn hóa, văn nghệ, thể thao lành mạnh
+- Thanh niên tình nguyện
+- Các hoạt động xã hội khác từ cấp Khoa, Trường hoặc tương đương
+Bạn có thể tham khảo thêm thông tin về các câu lạc bộ này và đăng ký tham gia phù hợp với sở thích và năng lực của mình."
+  utter_ask_hoat_dong_ngoai_khoa:
+  - text: "Trường Đại học Y Dược Cần Thơ có nhiều hoạt động ngoại khóa dành cho sinh viên, bao gồm các hoạt động văn hóa, văn nghệ, thể thao lành mạnh và các câu lạc bộ học thuật. Ngoài ra, sinh viên cũng có thể tham gia các hoạt động xã hội, tình nguyện và phong trào của lớp. Trường khuyến khích sinh viên tham gia các hoạt động này để phát triển toàn diện và rèn luyện kỹ năng mềm."
+  utter_ask_ho_tro_sinh_vien_lam_them:
+  - text: "Trường Đại học Y Dược Cần Thơ có hỗ trợ sinh viên tìm việc làm thêm thông qua các dịch vụ công tác xã hội hiện có của trường, bao gồm dịch vụ tư vấn việc làm. Sinh viên có thể tận dụng nguồn hỗ trợ này để tìm kiếm cơ hội việc làm phù hợp với khả năng và nhu cầu của mình."
+  utter_ask_trao_doi_sinh_vien:
+  - text: "Tại Trường Đại học Y Dược Cần Thơ, sinh viên có thể tìm đến Trung tâm Dịch vụ và Hỗ trợ Sinh viên. Trung tâm này cung cấp các dịch vụ công tác xã hội, bao gồm tư vấn về hướng nghiệp, việc làm, sức khỏe, tâm lý, và hỗ trợ sinh viên có hoàn cảnh đặc biệt. Ngoài ra, sinh viên cũng có thể tham gia các tổ chức như Đoàn Thanh niên và Hội Sinh viên để trao đổi và tham gia các hoạt động xã hội, văn hóa, và thể thao."
+  utter_ask_co_hoi_thuc_tap_benh_vien:
+  - text: "Theo thông tin tôi có được, Trường Đại học Y Dược Cần Thơ có nhiều cơ hội thực tập tại các bệnh viện lớn cho sinh viên. Trường có các chương trình đào tạo bác sĩ y khoa hệ chính quy và hệ chuyên tu, với số lượng sinh viên được đào tạo hàng năm khá lớn. Sinh viên có cơ hội thực hành, lâm sàng và cộng đồng tại các bệnh viện thực hành trực thuộc trường.
+Ngoài ra, trường cũng chú trọng đến việc phát triển bệnh viện trường thành bệnh viện hiện đại, kỹ thuật cao của khu vực, điều này có thể tạo ra nhiều cơ hội thực tập và trải nghiệm thực tế cho sinh viên.
+Tuy nhiên, tôi không tìm thấy thông tin cụ thể về số lượng cơ hội thực tập tại các bệnh viện lớn dành cho sinh viên. Bạn có thể liên hệ trực tiếp với trường để có thông tin chi tiết hơn về các cơ hội thực tập và các chương trình đào tạo liên quan."
+  utter_ask_can_tin_truong:
+  - text: "Khuôn viên trường có nhiều dịch vụ tiện ích phục vụ cho sinh viên, bao gồm cả các dịch vụ ăn uống. Sinh viên có thể sử dụng hệ thống thư viện, các trang thiết bị và phương tiện phục vụ cho hoạt động học tập, nghiên cứu, cũng như các hoạt động văn hóa, văn nghệ, thể dục, thể thao. Tuy nhiên, trong khuôn viên trường, sinh viên cần tuân thủ các quy định về vệ sinh, cảnh quan, môi trường và không được phép hút thuốc lá, sử dụng đồ uống có cồn hoặc chất kích thích."
+  utter_ask_hoat_dong_the_thao_cho_sv:
+  - text: "Trường Đại học Y Dược Cần Thơ có tổ chức các hoạt động thể thao cho sinh viên. Theo thông tin được cung cấp, sinh viên được khuyến khích tham gia các hoạt động thể thao lành mạnh và phù hợp với mục tiêu đào tạo của trường. Ngoài ra, trường cũng có các câu lạc bộ và đội nhóm trực thuộc cấp khoa và trường, nơi sinh viên có thể tham gia các hoạt động văn thể mỹ và thể thao."
+  utter_ask_trung_tam_nghien_cuu_yhoc:
+  - text: "Trường Đại học Y Dược Cần Thơ có thành lập trung tâm nghiên cứu y học. Cụ thể, trường có 4 trung tâm và 1 viện trực thuộc."
+
+  utter_ask_sv_tham_gia_trung_tam_nghien_cuu_yhoc:
+  - text: "Sinh viên có thể tham gia vào các dự án nghiên cứu do trường tổ chức. Trường Đại học Y Dược Cần Thơ khuyến khích sinh viên tham gia nghiên cứu khoa học và các hoạt động học thuật, bao gồm cả việc tham gia các dự án nghiên cứu. Điều này được thể hiện trong các quy định và nhiệm vụ của sinh viên, nơi nhấn mạnh đến việc tham gia các hoạt động nghiên cứu và học thuật"
+
+  utter_ask_ho_tro_sinh_vien_khoi_nghiep:
+  - text: "Xin lỗi, tôi không tìm thấy thông tin cụ thể về các khóa học khởi nghiệp dành cho sinh viên trong phần ngữ cảnh được cung cấp. Tôi xin phép không thể trả lời câu hỏi này một cách chính xác."
+  utter_ask_tham_gia_nghien_cuu_vs_giang_vien:
+  - text: "sinh viên có thể tham gia vào các dự án nghiên cứu của giảng viên. Trường Đại học Y Dược Cần Thơ khuyến khích sinh viên chủ động, tích cực tự học, nghiên cứu và sáng tạo. Sinh viên có thể tham gia nghiên cứu khoa học, thi sinh viên giỏi, và các hoạt động liên quan đến nghiên cứu. Nhà trường cũng tập trung đầu tư phát triển nghiên cứu khoa học và khuyến khích sự tham gia của sinh viên trong các dự án này."
+  utter_ask_quy_ho_tro_nghien_cuu_sv:
+  - text: "Trường Đại học Y Dược Cần Thơ có sự đầu tư và chú trọng vào phát triển nghiên cứu khoa học. Nhà trường đã tập trung vào việc xây dựng hệ thống quản lý chất lượng, nâng cao chất lượng đào tạo và xây dựng đội ngũ cán bộ, giảng viên có chất lượng cao.
+Tuy nhiên, trong các thông tin được cung cấp, tôi không tìm thấy thông tin cụ thể về quỹ dành riêng cho việc hỗ trợ nghiên cứu. Có thể trường có các chương trình tài trợ hoặc học bổng khuyến khích nghiên cứu, nhưng tôi không có thông tin chi tiết về điều này.
+Nếu bạn cần thông tin cụ thể hơn về các quỹ hỗ trợ nghiên cứu tại trường, bạn có thể liên hệ trực tiếp với Phòng Công tác Sinh viên hoặc các bộ phận liên quan để được tư vấn và hướng dẫn chi tiết hơn."
+  utter_ask_hop_tac_nghien_cuu_vs_benh_vien:
+  - text: "Trường Đại học Y Dược Cần Thơ có mối quan hệ hợp tác với Bệnh viện Trường Đại học Y Dược Cần Thơ để thực hiện các hoạt động nghiên cứu khoa học và giảng dạy. Ngoài ra, trường cũng liên kết với Đại học Y Dược Thành phố Hồ Chí Minh trong việc đào tạo Chuyên khoa cấp I Y học Gia đình."
+  utter_ask_sinh_vien_nghien_cuu_tu_nam_nao:
+  - text: "Tôi xin thông báo rằng không có sự kiện giới thiệu về nghiên cứu dành riêng cho sinh viên năm đầu tại trường. Tuy nhiên, nhà trường rất chú trọng vào việc phát triển nghiên cứu khoa học và khuyến khích sinh viên tham gia vào các hoạt động nghiên cứu.
+Sinh viên có thể tham khảo các cơ hội nghiên cứu và các chương trình hỗ trợ dành cho sinh viên mới thông qua các kênh thông tin chính thức của trường. Nhà trường luôn tạo điều kiện và khuyến khích sinh viên tham gia vào các hoạt động nghiên cứu khoa học, đây là một phần quan trọng trong quá trình học tập và phát triển của sinh viên.
+Nếu bạn có bất kỳ câu hỏi nào liên quan đến nghiên cứu hay các hoạt động khác tại trường, tôi sẵn sàng hỗ trợ và cung cấp thông tin chi tiết hơn."
+
+  utter_ask_thiet_bi_nghien_cuu_hien_dai:
+  - text: "Phòng thí nghiệm của trường Đại học Y Dược Cần Thơ được trang bị đầy đủ và hiện đại. Trường có 24 phòng thí nghiệm với các trang thiết bị phục vụ cho hoạt động học tập và nghiên cứu khoa học. Ngoài ra, trường còn có các phòng thực hành, thực tập được trang bị theo đặc thù chuyên môn, đảm bảo an toàn và hiệu quả trong quá trình thực hiện các thí nghiệm."
+
+  utter_ask_nghien_cuu_hang_nam:
+  - text: "Trường Đại học Y Dược Cần Thơ thường xuyên tổ chức các hoạt động nghiên cứu khoa học và có nhiều công trình nghiên cứu được công bố trên các tạp chí trong nước và quốc tế. Tuy nhiên, tôi không tìm thấy thông tin cụ thể về việc tổ chức hội thảo nghiên cứu định kỳ tại trường."
+
+  utter_ask_gio_mo_cua_thu_vien:
+  - text: "Thư viện trường Đại học Y Dược Cần Thơ có mở cửa vào thứ Bảy và Chủ nhật."
+
+  utter_ask_phong_tu_hoc_sinh_vien:
+  - text: " Trường Đại học Y Dược Cần Thơ có cung cấp phòng tự học cho sinh viên không?
+Câu trả lời là có. Trường có các phòng thực tập và thư viện dành cho sinh viên, nơi các bạn có thể tự học và chuẩn bị cá nhân cho các học phần lý thuyết. Ngoài ra, trường cũng khuyến khích sinh viên dành ít nhất 30 giờ tự học cho mỗi tín chỉ để tiếp thu kiến thức hiệu quả.
+Vậy nên, sinh viên có thể sử dụng các không gian học tập sẵn có tại trường để tự học và nghiên cứu."
+
+  utter_ask_he_thong_elearning:
+  - text: "Trường Đại học Y Dược Cần Thơ có cung cấp hệ thống học online và sinh viên có thể học qua e-learning. Trường đã thực hiện giảng dạy trực tuyến như một phần của hoạt động giảng dạy, đặc biệt là cho các hoạt động thực hành, thực tập và trải nghiệm thực tế."
+
+  utter_ask_wifi_free:
+  - text: "Trường có cung cấp wifi miễn phí cho sinh viên ở một số nơi nhất định để phục vụ việc học tập"
+
+  utter_ask_khuon_vien_truong:
+  - text: "Khuôn viên trường có diện tích 30,95 ha, bao gồm nhiều khối khoa, giảng đường, phòng thí nghiệm và ký túc xá cho sinh viên. Do đó, khuôn viên trường có diện tích khá lớn và rộng rãi."
+
+  utter_ask_cho_do_xe_sinh_vien:
+  - text: "Sinh viên phải trả phí gửi xe cho trường với giá là 2000vnđ/lượt"
+
+  utter_ask_ho_tro_vay_von_sinh_vien:
+  - text: "Trường Đại học Y Dược Cần Thơ có cung cấp chương trình vay vốn cho sinh viên. Sinh viên có thể liên hệ với Phòng Công tác Sinh viên để nhận thông tin và hướng dẫn về các chương trình vay vốn. Phòng CTSV sẽ hỗ trợ sinh viên trong quá trình đăng ký và làm thủ tục với ngân hàng."
+
+  utter_ask_ho_tro_thuc_tap_sinh_vien:
+  - text: "Trường Đại học Y Dược Cần Thơ có sắp xếp chương trình thực tập cho sinh viên. Các hoạt động thực hành, thực tập, và trải nghiệm thực tế được thực hiện ngoài trường, và sinh viên được đào tạo theo tín chỉ, cho phép họ tích lũy tín chỉ và theo đuổi kế hoạch học tập cá nhân."
+
+  utter_ask_ho_tro_thuc_tap_sinh_vien_y_khoa:
+  - text: " Sinh viên ngành Y đa khoa sẽ thực tập tại các bệnh viện và cơ sở y tế khác nhau. Họ sẽ được thực hành và áp dụng kiến thức đã học vào thực tế lâm sàng dưới sự hướng dẫn và giám sát của các bác sĩ và giảng viên"
+
+  utter_ask_ho_tro_thuc_tap_sinh_vien_ngoai_tinh:
+  - text: "Theo thông tin tôi có được, sinh viên có thể thực hiện các hoạt động thực tập tại các bệnh viện ngoài Trường, bao gồm cả các bệnh viện ngoài tỉnh. Điều này được đề cập trong phần quy định về các hoạt động giảng dạy và thực hành của sinh viên.
+Tuy nhiên, bạn có thể liên hệ trực tiếp với phòng đào tạo hoặc ban quản lý thực tập của trường để có thông tin chi tiết và cập nhật nhất về các cơ sở thực tập được phép và quy trình thực tập tại các bệnh viện ngoài tỉnh.
+Nếu bạn cần thông tin cụ thể hơn về quy trình thực tập hoặc có bất kỳ câu hỏi nào khác liên quan đến việc thực tập, tôi sẵn sàng hỗ trợ bạn trong phạm vi kiến thức của mình."
+
+  utter_ask_benh_vien_lien_ket_voi_truong:
+  - text: " Trường Đại học Y Dược Cần Thơ có sự hợp tác với Đại học Y Dược Thành phố Hồ Chí Minh để đào tạo Chuyên khoa cấp I Y học Gia đình. Sinh viên thực tập có thể được bố trí tại các bệnh viện trực thuộc Đại học Y Dược Thành phố Hồ Chí Minh."
+
+  utter_ask_co_hoi_xin_viec_sinh_vien:
+  - text: "Sinh viên tốt nghiệp ngành Y tại Trường Đại học Y Dược Cần Thơ sẽ có nhiều cơ hội xin việc và cơ hội nghề nghiệp rộng mở. Với nhu cầu ngày càng tăng về chăm sóc sức khỏe và y tế, các bác sĩ và chuyên gia y tế được đào tạo bài bản luôn được xã hội trọng dụng. Sinh viên tốt nghiệp ngành Y có thể lựa chọn nhiều con đường nghề nghiệp khác nhau, bao gồm làm việc tại các bệnh viện, trung tâm y tế, phòng khám tư nhân, hoặc tham gia vào các chương trình y tế cộng đồng."
+
+  utter_ask_dieu_kien_trao_doi_sinh_vien:
+  - text: "Để tham gia chương trình trao đổi sinh viên, sinh viên cần đáp ứng các điều kiện sau:
+- Không đang là sinh viên năm nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.
+- Đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
+- Trường phải có đủ các điều kiện bảo đảm chất lượng và chưa vượt quá năng lực đào tạo đối với chương trình đó.
+- Không là sinh viên diện dự bị dân tộc, cử tuyển, hoặc đào tạo theo nhu cầu.
+- Được sự đồng ý của trường, đơn vị chuyên môn phụ trách chương trình và Hiệu trưởng.
+Ngoài ra, sinh viên cũng cần tuân thủ các quy định về giao tiếp với giảng viên, thực hiện tốt nghĩa vụ công dân và đạt chuẩn đầu ra của chương trình đào tạo."
+
+  utter_ask_trao_doi_voi_sinh_vien_quoc_te_nao:
+  - text: "Trường Đại học Y Dược Cần Thơ có chương trình trao đổi sinh viên với Đại học Y Dược Thành phố Hồ Chí Minh. Ngoài ra, trường cũng có các chương trình liên kết đào tạo sau đại học và hợp tác quốc tế trong nghiên cứu khoa học, liên hệ phòng công tác sinh viên để biết thêm thông tin nhé bạn ơi."
+
+  utter_ask_truong_quoc_te_lien_ket_voi_ctump:
+  - text: "Trường Đại học Y Dược Cần Thơ đã liên kết với Đại học Y Dược Thành phố Hồ Chí Minh để đào tạo Chuyên khoa cấp I Y học Gia đình. Đây là mối liên kết quan trọng trong lĩnh vực đào tạo y khoa và góp phần nâng cao chất lượng giáo dục tại trường, và các trường quốc tế khác hiện chưa cập nhật trong dữ liệu"
+
+  utter_ask_sinh_vien_co_tham_gia_du_hoc_ngan_han:
+  - text: "rường Đại học Y Dược Cần Thơ cho phép sinh viên đi du học ngắn hạn trong quá trình học, tuy nhiên điều này phụ thuộc vào một số điều kiện và quy định nhất định. Sinh viên cần đảm bảo đã học ít nhất 1 học kỳ ở trường và không rơi vào các trường hợp bị cảnh báo kết quả học tập hoặc bị buộc thôi học. Thời gian nghỉ học tạm thời vì nhu cầu cá nhân phải được tính vào thời gian học chính thức tại trường."
+
+  utter_ask_trinh_do_cua_giang_vien:
+  - text: "Kinh nghiệm giảng dạy của giảng viên trường rất phong phú và đa dạng. Trường Đại học Y Dược Cần Thơ đã có truyền thống lâu đời trong đào tạo và bồi dưỡng cán bộ giảng dạy. Các giảng viên được tuyển chọn từ những sinh viên tốt nghiệp loại giỏi, khá và được đào tạo, bồi dưỡng chuyên nghiệp. Họ có kỹ năng tổ chức, quản lý lớp học và tham gia tích cực vào các hoạt động chung của trường.
+Trường cũng chú trọng đến việc phát triển chương trình đào tạo và liên kết đào tạo đại học, đảm bảo chất lượng giảng dạy và đáp ứng nhu cầu xã hội. Thời gian giảng dạy được tổ chức linh hoạt, từ 07 giờ đến 20 giờ các ngày trong tuần, với một tiết học kéo dài 50 phút.
+Các hoạt động giảng dạy bao gồm cả lý thuyết và thực hành, thực tập, trải nghiệm thực tế, cũng như giảng dạy trực tuyến. Giảng viên luôn lên lớp đúng giờ, trang phục nghiêm chỉnh, và có sự tương tác tích cực với sinh viên.
+Với kinh nghiệm và sự tận tâm của đội ngũ giảng viên, Trường Đại học Y Dược Cần Thơ đã đào tạo thành công hơn 8.000 sinh viên tốt nghiệp, bao gồm nhiều chuyên ngành khác nhau."
+
+  utter_ask_giang_vien_co_bang_quoc_te_khong:
+  - text: "Trường Đại học Y Dược Cần Thơ có đội ngũ giảng viên với nhiều bằng cấp và học vị khác nhau. Theo thông tin tôi có được, trường có 14 tiến sĩ, 1 phó giáo sư và nhiều giảng viên có học vị thạc sĩ. Tuy nhiên, tôi không rõ liệu các giảng viên này có bằng cấp từ các trường đại học quốc tế hay không. Nếu bạn muốn biết cụ thể về bằng cấp của từng giảng viên, bạn có thể liên hệ trực tiếp với trường để được cung cấp thông tin chính xác hơn."
+
+  utter_ask_co_hoi_hoc_voi_giao_su:
+  - text: "Theo những thông tin mà tôi có được, không có đề cập cụ thể về việc sinh viên có thể tham gia các lớp học do giáo sư nổi tiếng giảng dạy hay không. Tuy nhiên, Trường Đại học Y Dược Cần Thơ có nhiều giảng viên giỏi và giàu kinh nghiệm trong các lĩnh vực chuyên môn khác nhau. Sinh viên có thể tham khảo và lựa chọn các học phần phù hợp với sở trường và mục tiêu học tập của mình.
+Nếu bạn muốn biết thêm thông tin về các giáo sư nổi tiếng hoặc các khóa học đặc biệt, bạn có thể liên hệ với phòng đào tạo hoặc các bộ phận liên quan của trường để được tư vấn và hướng dẫn chi tiết hơn."
+
+  utter_ask_chat_luong_giang_day:
+  - text: "Trường Đại học Y Dược Cần Thơ luôn nỗ lực cải thiện chất lượng giảng dạy và đào tạo. Chúng tôi chú trọng xây dựng đội ngũ giảng viên có chất lượng cao và thực hiện các hoạt động nghiên cứu khoa học để nâng cao trình độ chuyên môn.
+Trường đã đào tạo thành công hơn 8.000 sinh viên tốt nghiệp, bao gồm nhiều chuyên ngành khác nhau. Điều này cho thấy chất lượng giảng dạy và đào tạo của trường đã được khẳng định.
+Tuy nhiên, trong quá trình phát triển, trường cũng gặp phải những khó khăn ban đầu, như phải thuê địa điểm giảng dạy và học tập trong thành phố. Dù vậy, trường vẫn kiên trì theo đuổi mục tiêu nâng cao chất lượng đào tạo và đáp ứng nhu cầu xã hội.
+Hiện tại, trường đang thực hiện chủ trương của Bộ Giáo dục và Đào tạo về đào tạo đáp ứng nhu cầu xã hội và mở rộng quy mô đào tạo ở tất cả các hệ và hình thức. Trường cũng đã xây dựng hệ thống quản lý chất lượng và chú trọng vào việc nâng cao chất lượng đào tạo.
+Do đó, có thể nói rằng Trường Đại học Y Dược Cần Thơ đang không ngừng nỗ lực để cải thiện chất lượng giảng dạy và đào tạo, nhằm mang lại những giá trị tốt nhất cho sinh viên và xã hội."
+
+  utter_ask_thanh_tuu_cua_truong:
+  - text: "Trường Đại học Y Dược Cần Thơ đã đạt được nhiều thành tích nổi bật, bao gồm:
+- Huân chương Lao động hạng Nhất năm 2014.
+- Huân chương Lao động hạng Nhì năm 2009.
+- Huân chương Lao động hạng Ba năm 2000.
+- Bằng khen của Thủ tướng Chính phủ năm 2012.
+- Cờ thi đua của Chính phủ năm 2005.
+Ngoài ra, trường đã tập trung vào phát triển nghiên cứu khoa học và công bố nhiều công trình nghiên cứu trên các tạp chí khoa học trong nước và quốc tế. Trường cũng đã đào tạo hơn 8.000 sinh viên tốt nghiệp trong nhiều chuyên ngành khác nhau.
+Trường Đại học Y Dược Cần Thơ không ngừng phát triển về mọi mặt, bao gồm quy mô đào tạo, cơ sở vật chất, nghiên cứu khoa học, và chất lượng giảng dạy. Mục tiêu của trường là trở thành một trong những trường đại học khoa học sức khỏe hàng đầu Việt Nam và xếp hạng trong các trường đại học hàng đầu châu Á."
+
+  utter_ask_cuu_sinh_vien_co_thanh_tich_gi:
+  - text: "Những cựu sinh viên nổi bật của trường Đại học Y Dược Cần Thơ đã thành công trong nhiều lĩnh vực khác nhau, bao gồm nghiên cứu khoa học, quản lý và lãnh đạo. Họ đã đạt được những thành tựu đáng kể trong các vai trò của mình, đóng góp vào sự phát triển của nhà trường và xã hội."
+
+  utter_ask_truong_co_to_chuc_su_kien_qte:
+  - text: "rường Đại học Y Dược Cần Thơ đã có những đóng góp đáng kể trong lĩnh vực nghiên cứu khoa học và đào tạo sinh viên. Tuy nhiên, trong phần ngữ cảnh được cung cấp, không có thông tin cụ thể về các sự kiện quốc tế mà trường đã tổ chức. Do đó, tôi xin phép không thể trả lời câu hỏi này một cách chính xác."
+
+  utter_ask_chuong_trinh_tinh_nguyen_svien:
+  - text: "Chào bạn, tôi là chatbot CTUMP của Trường Đại học Y Dược Cần Thơ.
+Trường Đại học Y Dược Cần Thơ có các chương trình tình nguyện y tế dành cho sinh viên. Trường luôn khuyến khích và tạo điều kiện cho sinh viên tham gia các hoạt động tình nguyện, đặc biệt là trong lĩnh vực y tế, nhằm góp phần bảo vệ và chăm sóc sức khỏe cộng đồng.
+Bạn có thể tham khảo thêm thông tin về các hoạt động tình nguyện của Đoàn Thanh niên Trường Đại học Y Dược Cần Thơ tại link sau: https://www.facebook.com/doantn.ctump
+Nếu bạn có bất kỳ câu hỏi nào liên quan đến các chương trình tình nguyện y tế hoặc các hoạt động khác của trường, hãy đừng ngần ngại hỏi tôi nhé! Tôi sẽ cố gắng cung cấp thông tin chính xác và hữu ích nhất cho bạn"
+
+  utter_ask_dang_ky_ctrinh_tinh_nguyen:
+  - text: "Chào bạn, tôi là chatbot CTUMP của Trường Đại học Y Dược Cần Thơ.
+Trường Đại học Y Dược Cần Thơ có các chương trình tình nguyện y tế dành cho sinh viên. Trường luôn khuyến khích và tạo điều kiện cho sinh viên tham gia các hoạt động tình nguyện, đặc biệt là trong lĩnh vực y tế, nhằm góp phần bảo vệ và chăm sóc sức khỏe cộng đồng.
+Bạn có thể tham khảo thêm thông tin về các hoạt động tình nguyện của Đoàn Thanh niên Trường Đại học Y Dược Cần Thơ tại link sau: https://www.facebook.com/doantn.ctump
+Nếu bạn có bất kỳ câu hỏi nào liên quan đến các chương trình tình nguyện y tế hoặc các hoạt động khác của trường, hãy đừng ngần ngại hỏi tôi nhé! Tôi sẽ cố gắng cung cấp thông tin chính xác và hữu ích nhất cho bạn"
+
+  utter_ask_to_chuc_hoat_dong_tinh_nguyen:
+  - text: "Chào bạn, theo như thông tin tôi có được, sinh viên có thể tham gia các hoạt động tình nguyện và xã hội theo quy định của pháp luật và của trường. Tuy nhiên, việc tự mình tổ chức hoạt động tình nguyện thì tôi không tìm thấy thông tin cụ thể trong phần ngữ cảnh được cung cấp.
+Bạn có thể liên hệ với các tổ chức Đoàn thanh niên, Hội sinh viên hoặc các câu lạc bộ, đội nhóm trong trường để tìm hiểu thêm về các hoạt động tình nguyện và cách thức tham gia, cũng như cơ hội tổ chức các hoạt động này."
+
+  utter_ask_to_chuc_khoa_ki_nang_mem:
+  - text: "Chào bạn, tôi là chatbot CTUMP của Trường Đại học Y Dược Cần Thơ.
+Trường có tổ chức các khóa học kỹ năng mềm cho sinh viên không?
+Trường Đại học Y Dược Cần Thơ rất chú trọng đến việc đào tạo toàn diện cho sinh viên, bao gồm cả kỹ năng mềm. Trong đó, Trường có tổ chức các khóa học kỹ năng mềm nhằm hỗ trợ sinh viên phát triển các kỹ năng cần thiết cho quá trình học tập và rèn luyện.
+Các khóa học này tập trung vào việc nâng cao kỹ năng tổ chức, quản lý, cũng như kỹ năng tham gia vào các hoạt động tập thể, khoa và nhà trường. Ngoài ra, Trường còn cung cấp các dịch vụ tư vấn và hỗ trợ sinh viên trong nhiều lĩnh vực, bao gồm hướng nghiệp, tư vấn việc làm, tư vấn sức khỏe và tâm lý.
+Do đó, sinh viên của Trường Đại học Y Dược Cần Thơ có cơ hội phát triển toàn diện về kiến thức chuyên môn và kỹ năng mềm, giúp họ sẵn sàng cho các thách thức trong tương lai."
+
+  utter_ask_cai_thien_ki_nang_hoc_nganh_y:
+  - text: "Để nâng cao kỹ năng học tập trong ngành Y, bạn có thể tham khảo một số gợi ý sau:
+1. Tham gia các khóa học chuyên sâu: Trường Đại học Y Dược Cần Thơ cung cấp nhiều chương trình đào tạo khác nhau, bao gồm hệ chính quy, hệ theo nhu cầu xã hội, và hệ quốc tế. Bạn có thể đăng ký tham gia các khóa học chuyên sâu phù hợp với lĩnh vực mà bạn quan tâm, điều này sẽ giúp bạn nâng cao kiến thức và kỹ năng chuyên môn.
+2. Sử dụng tài nguyên học tập: Thư viện của trường là một nguồn tài nguyên quý giá cho việc học tập. Bạn có thể truy cập vào thư viện để tìm kiếm tài liệu, sách tham khảo, và các nguồn học tập khác liên quan đến ngành Y. Thư viện cũng có thể cung cấp các dịch vụ hỗ trợ học tập và hướng dẫn nghiên cứu.
+3. Tham gia hoạt động thực tế: Trường Đại học Y Dược Cần Thơ có các khóa học thực hành và lâm sàng. Bạn nên tận dụng cơ hội này để thực hành kỹ năng và tích lũy kinh nghiệm thực tế. Các hoạt động thực tế sẽ giúp bạn áp dụng kiến thức lý thuyết vào thực tiễn, đồng thời phát triển kỹ năng giao tiếp và làm việc nhóm.
+4. Tham gia các câu lạc bộ và nhóm nghiên cứu: Tham gia vào các câu lạc bộ hoặc nhóm nghiên cứu trong trường sẽ giúp bạn kết nối với các sinh viên và giảng viên có cùng sở thích và đam mê. Bạn có thể trao đổi ý tưởng, thảo luận về các chủ đề liên quan đến ngành Y, và học hỏi từ những người có kinh nghiệm.
+5. Tìm hiểu và cập nhật kiến thức mới: Ngành Y luôn phát triển và thay đổi nhanh chóng. Hãy chủ động tìm hiểu và cập nhật kiến thức mới nhất trong lĩnh vực của bạn. Theo dõi các tạp chí y khoa, tham gia các hội thảo, hội nghị, hoặc sử dụng các nguồn học tập trực tuyến để mở rộng kiến thức và nắm bắt những xu hướng mới trong ngành.
+6. Tham khảo ý kiến giảng viên và cố vấn: Các giảng viên và cố vấn trong trường có thể cung cấp hướng dẫn và hỗ trợ quý giá cho việc học tập của bạn. Họ có thể tư vấn về lựa chọn khóa học, hướng nghiệp, và giúp bạn phát triển kỹ năng học tập hiệu quả.
+7. Thực tập và trải nghiệm thực tế: Tìm kiếm cơ hội thực tập tại các bệnh viện, cơ sở y tế, hoặc các tổ chức liên quan đến ngành Y. Thực tập sẽ giúp bạn áp dụng kiến thức vào thực tế, phát triển kỹ năng giải quyết vấn đề, và tích lũy kinh nghiệm quý báu cho sự nghiệp tương lai.
+Hãy nhớ rằng, việc nâng cao kỹ năng học tập là một quá trình liên tục. Bạn có thể kết hợp các gợi ý trên và tìm ra phương pháp học tập phù hợp với bản thân để đạt được thành công trong ngành Y."
+
+  utter_ask_svien_su_dung_cong_nghe_moi:
+  - text: "Trường Đại học Y Dược Cần Thơ luôn chú trọng việc ứng dụng công nghệ số trong các hoạt động của trường, bao gồm cả quá trình đào tạo. Trường đã sử dụng công nghệ số để nâng cao hiệu quả ứng dụng khoa học công nghệ, quản lý và khai thác thông tin dữ liệu quản trị, và vận hành các hoạt động một cách hiệu quả.
+Ngoài ra, trường cũng liên tục cải tiến và đổi mới phương thức quản trị, nâng cao văn hóa tổ chức, và đa dạng hóa nguồn thu để tối ưu hóa chi phí hoạt động. Những nỗ lực này cho thấy trường đang tích cực đưa công nghệ mới vào quá trình đào tạo và phát triển, nhằm đáp ứng nhu cầu hội nhập và nâng cao chất lượng giáo dục."
+
+ 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

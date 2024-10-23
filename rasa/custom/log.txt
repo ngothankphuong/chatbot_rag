@@ -1,0 +1,39 @@
+action_hocphi_nganh: học phí ngành it
+action_hocphi_nganh: ngành  răng
+action_CTDT_nganh: ctđt ngành kinh tế
+action_hocphi_nganh: học phí hệ liên thông
+action_hocphi_nganh: học phí ngành xét nghiệm
+action_CTDT_nganh: ctdt y tế cc
+action_quy_trinh_tuyen_sinh_dh_lt_sdh: phương thức tuyển sinh
+action_hocphi_nganh: răng hàm mặt chỉ tiêu bao nhiêu
+action_hocphi_nganh: học phí ngành y tế cc
+action_hocphi_nganh: biết code không
+action_hocphi_nganh: hiệu trưởng trường đại học y dược cần thơ
+action_hocphi_nganh: học phí ngành y của đại học y hà nội
+action_hocphi_nganh: hiệu trưởng đại học y dược
+action_hocphi_nganh: Giá xăng
+action_hocphi_nganh: Giới thiệu về trường đại học y dược cần thơ
+action_hocphi_nganh: học phí ngành y tế cc
+action_hocphi_nganh: học phí ddieuf duong
+action_hocphi_nganh: học phí kĩ thuat xet nghiem
+action_hocphi_nganh: học phí ngành kĩ thuât xét nghiệm
+action_CTDT_nganh: ctdt y hdp
+action_hocphi_nganh: bạn là bot hả
+action_hocphi_nganh: sứ mệnh của trường là gi
+action_hocphi_nganh: sứ mệnh của trường
+action_hocphi_nganh: tầm nhìn của trường
+action_hocphi_nganh: y khoa
+action_hocphi_nganh: thông tin khoa rhm
+action_hocphi_nganh: code for me hello world by php
+action_hocphi_nganh: học phí bao nhiêu
+action_CTDT_nganh: dược
+action_hocphi_nganh: kĩ thuật xét nghiệm y học
+action_CTDT_nganh: dược
+action_hocphi_nganh: điều dưỡng
+action_CTDT_nganh: hiệu trưởng đại học y dược cần thơ
+action_goi_y_tuyen_sinh_dai_hoc: thầy hiệu trưởng tên gì
+action_CTDT_nganh: trường có các ngành đào tạo gì
+action_CTDT_nganh: Trường Đại học Y Dược Cần Thơ có các chương trình đào tạo bậc nào?
+action_CTDT_nganh: Chương trình đào tạo y khoa tại Đại học Y Dược Cần Thơ kéo dài bao lâu?
+action_CTDT_nganh: Trường Đại học Y Dược Cần Thơ có các chương trình đào tạo bậc nào?
+action_CTDT_nganh: phòng hành chánh tổng hợp

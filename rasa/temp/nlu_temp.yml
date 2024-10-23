@@ -1,0 +1,2113 @@
+#############
+############    KHÔNG XÓA     ################
+
+
+- synonym: phone_number
+  examples: |
+    - sdt
+    - sđt
+    - số máy
+    - số máy bàn
+    - số máy liên hệ
+    - số máy di động
+    - số điện thoại liên hệ
+    - số liên hệ
+    - số liên lạc
+    - số máy liên lạc
+    - số đt
+    - so dien thoai
+    - so dt
+    - số di dộng
+    - số điện thoại di động
+    - số dt di dong
+    - so dt
+    - so may
+    - số dthoai
+    - so dthoai
+    - dien thoai lien he
+    - điện thoại
+    - dt
+    - dien thoai
+
+- synonym: ten_khoa_phong
+  examples: |
+    - yhct -> y_hoc_co_truyen
+    - Yhct -> y_hoc_co_truyen
+    - y học ct -> y_hoc_co_truyen
+    - Yh ct -> y_hoc_co_truyen
+    - y hoc co truyen -> y_hoc_co_truyen
+    - y hoc ct -> y_hoc_co_truyen
+    - yhoc ctruyen -> y_hoc_co_truyen
+    - yhoc ctruyền -> y_hoc_co_truyen
+    - rhm -> rang_ham_mat
+    - răng hm -> rang_ham_mat
+    - rang ham mat -> rang_ham_mat
+    - rang hm -> rang_ham_mat
+    - răng hàm mặt -> rang_ham_mat
+    - Rhm -> rang_ham_mat
+    - răng ham mat -> rang_ham_mat
+    - răng hàm mat -> rang_ham_mat
+    - rang hàm mặt -> rang_ham_mat
+    - rang ham mặt -> rang_ham_mat
+    - phòng ctsv -> cong_tac_sinh_vien
+    - ctsv -> cong_tac_sinh_vien
+    - cong tac sinh vien -> cong_tac_sinh_vien
+    - ctac svien -> cong_tac_sinh_vien
+    - cong tac sv -> cong_tac_sinh_vien
+    - cong tac svien -> cong_tac_sinh_vien
+    - ctac sinh vien -> cong_tac_sinh_vien
+    - phòng ctsv -> cong_tac_sinh_vien
+    - hLKN -> huan_luyen_ky_nang
+    - hlkn -> huan_luyen_ky_nang
+    - huan luyen ky nang -> huan_luyen_ky_nang
+    - huan luyen kn -> huan_luyen_ky_nang
+    - huan luyen knang -> huan_luyen_ky_nang
+    - hl ky nang -> huan_luyen_ky_nang
+    - hluyen kn -> huan_luyen_ky_nang
+
+- synonym: caplai_thaydoi_bhYt
+  examples: |
+    - cấp lại thẻ bảo hiểm y tế
+    - cấp lại thẻ bhyt
+    - cấp lại bhYt
+    - cấp lại bảo hiểm yt
+    - cấp lại bh y tế
+    - cấp lại bảo hiểm yte
+    - cấp lại bảo hiểm ytế
+    - cấp lại bảo hiểm y tế
+    - cấp lại bảo hiểm y te
+    - cấp lại bao hiem y te
+    - cấp lai bao hiem y te
+    - cap lai bao hiem y te
+    - cap lại bảo hiểm y tế
+    - cấp lại bảo hiểm y tế
+    - xin cấp lại bảo hiểm y tế
+    - xin cấp bảo hiểm y tế
+    - xin lại bảo hiểm y tế
+    - xin lai bao hiem y te
+    - xin lai bao hiem yte
+    - xin lai bao hiem y te
+    - làm lại thẻ bảo hiểm y tế
+    - làm lại bảo hiểm y tế
+    - làm lại bhyt
+    - làm lại bhYt
+    - làm lại bảo hiểm yt
+    - làm lại bh y tế
+    - làm lại bảo hiểm yte
+    - làm lại bảo hiểm ytế
+    - làm lại bảo hiểm y tế
+    - làm lại bảo hiểm y te
+    - làm lại bao hiem y te
+    - làm lai bao hiem y te
+    - lam lai bao hiem y te
+    - lam lại bảo hiểm y tế
+    - làm lại bảo hiểm y tế
+    - thẻ bao hiểm của tôi bị sai
+    - thay đổi thông tin thẻ bhyt
+    - làm lại thẻ bhYt
+    - lam lai the bhyt
+    - sai thông tin thẻ bhYt
+    - thẻ bảo hiểm của tôi bị sai
+    - thẻ bh y tế không đúng thông tin
+    - thẻ bảo hiểm bị sai
+    - thông tin thẻ bảo hiểm ko đúng
+    - thông tin thẻ bảo hiểm sai
+    - thẻ bhYt k đúng
+    - thẻ bảo hiểm y tế k đúng
+    - thẻ bảo hiểm y tế ko đúng
+    - thẻ bảo hiểm
+    - the bao hiem
+    - thẻ bhYt
+    - the bhyt
+    - thẻ bảo hiểm y tế
+    - thay đổi thông tin thẻ bhYt
+    - sửa lại thẻ bhyt
+    - sua lai the bao hiem y te
+    - sua lai thong tin the bao hiem
+    - thay đổi thông tin thẻ bảo hiểm y tế
+    - thay đổi thông tin thẻ bảo hiểm
+    - thay đổi thông tin trên thẻ bảo hiểm
+    - thay doi thong tin the bao hiem y te
+    - thay doi thong tin the bhyt
+    - chỉnh sửa thông tin thẻ bhyt
+    - chỉnh sửa lại thẻ bhYt
+    - chỉnh sửa thẻ bảo hiểm y tế
+    - chỉnh sửa bảo hiểm y tế
+    - chỉnh sửa bảo hiểm yte
+    - chỉnh sửa bảo hiểm ytế
+    - chỉnh sửa lại thẻ bảo hiểm y tế
+    - thẻ bảo hiểm bị sai
+    - thẻ bảo hiểm sai thông tin
+    - the bao hiem sai thong tin
+    - thẻ bảo hiểm không đúng thông tin
+    - the bao hiem sai thong tin
+    - thông tin trên thẻ bảo hiểm không đúng
+    - thông tin trên thẻ bảo hiểm ko đúng
+    - thông tin trên thẻ bảo hiểm k đúng
+    - cấp lại thẻ bảo hiểm y tế
+    - sửa lại thông tin thẻ bảo hiểm y tế
+    - thẻ bảo hiểm y tế của tôi không đúng
+    - sửa thông tin thẻ bảo hiểm
+    - thong tin the bao hiem y te bi sai
+
+- synosym: hocphi
+  examples: |
+    - học phí -> hocphi
+    - hoc phi -> hocphi
+    - giá học phí -> hocphi
+    - Học phí -> hocphi
+    - Giá học phí -> hocphi
+    - Tiền học -> hocphi
+    - Phí học tập -> hocphi
+    - Lệ phí học tập -> hocphi
+    - Học phí khóa học -> hocphi
+    - Phí đào tạo -> hocphi
+    - Phí khóa học -> hocphi
+    - Phí lớp học -> hocphi
+    - Giá tiền học phí -> hocphi
+    - Chi phí học tập -> hocphi
+    - Mức phí học tập -> hocphi
+    - Chi phí khóa học -> hocphi
+    - Phí môn học -> hocphi
+    - hoc phi -> hocphi
+    - gia hoc phi -> hocphi
+    - tien hoc -> hocphi
+    - phi hoc tap -> hocphi
+    - le phi hoc tap -> hocphi
+    - hoc phi khoa hoc -> hocphi
+    - phi dao tao -> hocphi
+    - phi khoa hoc -> hocphi
+    - phi lop hoc -> hocphi
+    - gia tien hoc phi -> hocphi
+    - chi phi hoc tap -> hocphi
+    - muc phi hoc tap -> hocphi
+    - chi phi khoa hoc -> hocphi
+    - phi mon hoc -> hocphi
+    - học phị -> hocphi
+    - học pị -> hocphi
+    - học pí -> hocphi
+    - hộc phí -> hocphi
+    - hóc phí -> hocphi
+    - học phíu -> hocphi
+    - học phíh -> hocphi
+    - học pý -> hocphi
+    - học phý -> hocphi
+    - hóc phý -> hocphi
+    - giã học phí -> hocphi
+    - giá hôc phí -> hocphi
+    - giá học phíh -> hocphi
+    - giá học pí -> hocphi
+    - giã học pì -> hocphi
+    - giá học pý -> hocphi
+    - tien hoc -> hocphi
+    - tiềnh học -> hocphi
+    - tiệh học -> hocphi
+    - tiên học -> hocphi
+    - tiên hộc -> hocphi
+    - phi học tập -> hocphi
+    - phị học tập -> hocphi
+    - phí học tậ -> hocphi
+    - phí hộc tập -> hocphi
+    - phí học tạ -> hocphi
+    - phị học tập -> hocphi
+    - lệ phí học tậ -> hocphi
+    - lệ phị học tập -> hocphi
+    - lệ phí hộc tập -> hocphi
+    - lệ phí hạoc tập -> hocphi
+    - học phí khõa học -> hocphi
+    - học phí khỏa học -> hocphi
+    - học phí khỏa hoạc -> hocphi
+    - phí đàotạo -> hocphi
+    - phí đào to -> hocphi
+    - phí đào toạo -> hocphi
+    - phí khoá học -> hocphi
+    - phí khõa học -> hocphi
+    - phí khôa học -> hocphi
+    - phỉ lớp học -> hocphi
+    - phỉ lóp học -> hocphi
+    - phỉ lớp hộc -> hocphi
+    - giá tiền học phỉ -> hocphi
+    - giá tiền học pỷ -> hocphi
+    - giá tiền học phý -> hocphi
+    - giá tiền học pì -> hocphi
+    - chi phỉ học tập -> hocphi
+    - chi phí học tậ -> hocphi
+    - chi phỉ hộc tập -> hocphi
+    - chi phí học tạ -> hocphi
+    - mức phỉ học tập -> hocphi
+    - mức phí học tậ -> hocphi
+    - mức phí hộc tập -> hocphi
+    - mức phí học tạ -> hocphi
+    - chí phí khóa học -> hocphi
+    - chí phí khõa học -> hocphi
+    - chí phí khóa hộc -> hocphi
+    - phí môn học -> hocphi
+    - phỉ môn học -> hocphi
+    - phí môn hộc -> hocphi
+    - phỉ môn hộc -> hocphi
+    - học phỉ -> hocphi
+    - học pía -> hocphi
+    - học phí bnh -> hocphi
+    - hoc pía -> hocphi
+    - hoc phỉ -> hocphi
+    - hoc phí -> hocphi
+    - hốc phí -> hocphi
+    - giá học phi -> hocphi
+    - gía học phí -> hocphi
+    - gía hoc phí -> hocphi
+    - tien hoc phí -> hocphi
+    - tiên hoc phi -> hocphi
+    - tiên học phỉ -> hocphi
+    - tien hốc phí -> hocphi
+    - phí họcp hí -> hocphi
+    - phí học phi -> hocphi
+    - phí hoc phỉ -> hocphi
+    - phi học phí -> hocphi
+    - phi học phi -> hocphi
+    - le phí học tập -> hocphi
+    - le phí học tập -> hocphi
+    - phí học tâp -> hocphi
+    - phí học tấp -> hocphi
+    - phí học tập -> hocphi
+    - học phi khôa học -> hocphi
+    - học phỉ khoa học -> hocphi
+    - học phí khòa học -> hocphi
+    - học phí khoà học -> hocphi
+    - phí đào tạoo -> hocphi
+    - phi dao tạọ -> hocphi
+    - phi dao tao -> hocphi
+    - phỉ khoa học -> hocphi
+    - phi khoa học -> hocphi
+    - phi khòa học -> hocphi
+    - phí khoá học -> hocphi
+
+- intent: ask_hoi_dong_truong
+  examples: |
+    - [hội đồng trường]{"entity":"hoi_dong_truong", "role":"thong_tin"}
+    - thông tin [hoi dong truong]{"entity":"hoi_dong_truong", "role":"thong_tin"}
+    - giới thiệu về [hội đồng trường]{"entity":"hoi_dong_truong", "role":"thong_tin"}
+    - [chủ tịch]{"entity":"hoi_dong_truong", "role":"chu_tich"} hội đồng trường là ai
+    - [chu tich]{"entity":"hoi_dong_truong", "role":"chu_tich"} hội đồng trường là ai
+    - [chủ tich]{"entity":"hoi_dong_truong", "role":"chu_tich"} hội đồng trường là ai
+    - thông tin về [chủ tịch]{"entity":"hoi_dong_truong", "role":"chu_tich"} hội đồng trường
+    - danh sách các [thành viên]{"entity":"hoi_dong_truong", "role":"thanh_vien"} hội đồng trường là ai
+    - liệt kê các [thành viên]{"entity":"hoi_dong_truong", "role":"thanh_vien"} hội đồng trường
+    - liệt kê các [thanh vien]{"entity":"hoi_dong_truong", "role":"thanh_vien"} hội đồng trường
+    - liệt kê các [tv]{"entity":"hoi_dong_truong", "role":"thanh_vien"} hội đồng trường
+    - ai thuộc [thành viên]{"entity":"hoi_dong_truong", "role":"thanh_vien"}
+    - [sơ đồ tổ chức]{"entity":"hoi_dong_truong", "role":"so_do_to_chuc"} của trường
+    - [so do to chuc]{"entity":"hoi_dong_truong", "role":"so_do_to_chuc"} của trường
+    - [sơ đồ tc]{"entity":"hoi_dong_truong", "role":"so_do_to_chuc"} của trường
+    - cho tôi xem [sơ đồ tổ chức]{"entity":"hoi_dong_truong", "role":"so_do_to_chuc"} của trường
+    - [thư ký hội đồng trường]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [thư ký trường]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [thu ky]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [thư ký]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [thư kí]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [tS. Võ phạm minh thư]{"entity":"hoi_dong_truong", "role":"thu_ky"} của trường
+    - [nhiệm vụ hội đồng trường]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} là gì
+    - [nhiệm vụ hoi dong truong]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} là gì
+    - [nhiem vu của hội đồng trường]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} của trường
+    - [nhiệm vụ]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} của trường
+    - [quyền hạn hội đồng trường]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} của trường
+    - [quyen han hội đồng trường]{"entity":"hoi_dong_truong", "role":"nhiem_vu"} của trường
+
+- intent: ask_ban_giam_hieu
+  examples: |
+    - thông tin [lãnh đạo trường]{"entity":"ban_giam_hieu", "role":"thong_tin"}
+    - thành viên [lãnh đạo trường]{"entity":"ban_giam_hieu", "role":"thong_tin"}
+    - [lãnh đạo trường]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - [lanh dao]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - [lanh dao truong]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - [ban giám hiệu]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - [ban giam hieu]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - thành viên [ban giam hieu]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai
+    - [bgh]{"entity":"ban_giam_hieu", "role":"thong_tin"} là ai  
+    - [gS.tS Nguyễn trung Kiên]{"entity":"ban_giam_hieu", "role":"hieu_truong"} của trường là ai
+    - [hiệu trưởng]{"entity":"ban_giam_hieu", "role":"hieu_truong"} của trường là ai
+    - [hiệu trưởng trường]{"entity":"ban_giam_hieu", "role":"hieu_truong"} của trường là ai
+    - thông tin về [hiệu trưởng]{"entity":"ban_giam_hieu", "role":"hieu_truong"} của trường
+    - thông tin về [hieu truong]{"entity":"ban_giam_hieu", "role":"hieu_truong"} của trường
+    - [ban giám hiệu trường]{"entity":"ban_giam_hieu", "role":"thong_tin"} của trường là ai
+    - danh sách [ban giám hiệu trường]{"entity":"ban_giam_hieu", "role":"thong_tin"}
+    - danh sách các [phó hiệu trưởng]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"} hội đồng trường là ai
+    - liệt kê các [phó hiệu trưởng]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"} hội đồng trường
+    - ai là [phó hiệu trưởng]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - liệt kê các [pho hieu truong]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"} hội đồng trường
+    - [pgS.tS Nguyễn Văn Lâm]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - [pgS.tS trần Viết An]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - [pgS.tS Nguyễn thành tấn]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - [Nguyễn Văn Lâm]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - [trần Viết An]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+    - [Nguyễn thành tấn]{"entity":"ban_giam_hieu", "role":"pho_hieu_truong"}
+
+- intent: ask_dang
+  examples: |
+    - [qua trinh phat trien]{"entity":"dang_bo_dang_uy", "role":"dang_bo" ,"value":"lich_su"} của đảng
+    - [quá trình phát triển]{"entity":"dang_bo_dang_uy", "role":"dang_bo" ,"value":"lich_su"} của đảng
+    - [qtpt]{"entity":"dang_bo_dang_uy", "role":"dang_bo" ,"value":"lich_su"} của đảng
+    - [lịch sử]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"} đảng bộ
+    - [lich su]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"} đảng bộ
+    - [lich su dang]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"}
+    - [lịch sử phát triển]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"} đảng bộ
+    - [lịch sử pt]{"entity":"dang_bo_dang_uy", "role":"dang_bo" ,"value":"lich_su"}  đảng bộ
+    - [lịch sử hình thành]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"}  đảng bộ
+    - đảng bộ [thành lập]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"lich_su"} ngày nào
+    - [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - dánh sách [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - các thành viên [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [thành viên ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [tv bch]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [ban chap hanh dang bo]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [ban chap hanh]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+    - [ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo" , "value":"ban_chap_hanh_dang_bo"}
+
+- intent: ask_dang_uy_truong_ctump
+  examples: |
+    - [đảng bộ trường]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - sơ lược về [đảng bộ trường]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - [dang bo]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - thong tin ve [dang bo]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - liên hệ [đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - làm sao lien he [đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - thông tin cơ bản [đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - khái quát [đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - giới thiệu [dang bo]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"thong_tin"}
+    - [quá trình phát triển]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} của đảng
+    - [qtpt]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} của đảng
+    - [lịch sử]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} đảng bộ
+    - [lich su]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} đảng bộ
+    - [lich su dang]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"}
+    - [lịch sử phát triển]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} đảng bộ
+    - [lịch sử pt]{"entity":"dang_bo_dang_uy", "role":"dang_bo","value":"lich_su"}  đảng bộ
+    - [lịch sử hình thành]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"}  đảng bộ
+    - đảng bộ [thành lập]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"lich_su"} ngày nào
+    - [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - dánh sách [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - các thành viên [ban chấp hành đảng bộ]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [thành viên ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [tv bch]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [ban chap hanh dang bo]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [ban chap hanh]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - [ban chấp hành]{"entity":"dang_bo_dang_uy", "role":"dang_bo", "value":"ban_chap_hanh_dang_bo"}
+    - mô tả [dang uy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - [dang ủy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - thong tin [đảng ủy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - [đảng ủy trường]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - thông tin [đảng ủy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - mô tả [dang uy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - sơ lược [dang uy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"} về
+    - giới thiệu [dang uy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"thong_tin"}
+    - [cơ cấu tổ chức]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"co_cau_to_chuc"} của đảng
+    - [cctc dang]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"co_cau_to_chuc"} của đảng ủy
+    - [co cau to chuc]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"co_cau_to_chuc"} của đảng ủy
+    - [cơ cấu tc]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"co_cau_to_chuc"} của đảng ủy
+    - [hình thức tổ chức]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"co_cau_to_chuc"}  như thế nào
+    - [chi bộ cơ sở]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chi_bo_co_so"} của đảng
+    - [chi bộ cs]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chi_bo_co_so"} của đảng
+    - [cbcs]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chi_bo_co_so"} của đảng
+    - [chi bo co so]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chi_bo_co_so"} của đảng
+    - [đảng bộ cơ sở]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"dang_bo_co_so"} của đảng
+    - [đảng bộ cs]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"dang_bo_co_so"} của đảng
+    - [dbcs]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"dang_bo_co_so"} của đảng
+    - [dang bo co so]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"dang_bo_co_so"} của đảng
+    - các [bí thư]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"}  qua các thời kì
+    - các [bi thư]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của nhà trường
+    - danh sach [bi thu]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} la ai
+    - liệt kê các [bí thư]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - những ai [bi thu]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - đồng chí [Lê thế thự]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - đồng chí [phạm Văn Đại]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - đồng chí [phạm Văn Linh]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - đồng chí [Nguyễn trung Kiên]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - đồng chí [Nguyễn minh phương]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"bi_thu"} của trường
+    - [ban thường vụ]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [ban tv]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [ban thường vụ đảng ủy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [ban thuong vu]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"} đảng
+    - [btv]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [btv đảng]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [btv đảng ủy]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - danh sách [ban tv]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"ban_thuong_vu"}
+    - [vị trí]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"vi_tri"} của ở đâu
+    - [vi tri]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"vi_tri"} của đảng ủy ở đâu
+    - [địa điểm]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"vi_tri"} của đảng ủy ở đâu
+    - [dia diem]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"vi_tri"} của đảng ủy ở đâu
+    - [chức năng]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chuc_nang"} của đảng ủy
+    - [vai trò]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chuc_nang"} của đảng ủy là gì
+    - [vai tro]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"chuc_nang"} của đảng ủy là gì
+    - [trách nhiệm]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"nhiem_vu"} của đảng ủy là gì
+    - [nhiệm vụ]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"nhiem_vu"} của đảng ủy là gì
+    - [nhiem vu]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"nhiem_vu"} của đảng ủy là gì
+    - [nhiệm vụ đảng]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"nhiem_vu"} là gì
+    - [nhiệm vụ]{"entity":"dang_bo_dang_uy", "role":"dang_uy", "value":"nhiem_vu"} của đảng là gì
+
+- intent: ask_thong_tin_truong
+  examples: |
+    - [thông tin]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [thong tin]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [mô tả]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [mo ta]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [giới thiệu]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [gioi thieu]{"entity":"thong_tin_truong","role":"thong_tin"} của trường
+    - [sứ mạng]{"entity":"thong_tin_truong","role":"su_mang"} của trường
+    - [su mang]{"entity":"thong_tin_truong","role":"su_mang"} của trường
+    - [su mạng]{"entity":"thong_tin_truong","role":"su_mang"} của trường
+    - [sứ mang]{"entity":"thong_tin_truong","role":"su_mang"} của trường
+    - [sm]{"entity":"thong_tin_truong","role":"su_mang"} của trường
+    - [tầm nhìn]{"entity":"thong_tin_truong","role":"tam_nhin"} của trường
+    - [tầm nhin]{"entity":"thong_tin_truong","role":"tam_nhin"} của trường
+    - [tam nhin]{"entity":"thong_tin_truong","role":"tam_nhin"} của trường
+    - [tn]{"entity":"thong_tin_truong","role":"tam_nhin"} của trường
+    - [giá trị cốt lỗi]{"entity":"thong_tin_truong","role":"gia_tri_cot_loi"} của trường
+    - [gia tri cot loi]{"entity":"thong_tin_truong","role":"gia_tri_cot_loi"} của trường
+    - [giá tri cot loi]{"entity":"thong_tin_truong","role":"gia_tri_cot_loi"} của trường
+    - [gia tri cốt loi]{"entity":"thong_tin_truong","role":"gia_tri_cot_loi"} của trường
+    - [gtcl]{"entity":"thong_tin_truong","role":"gia_tri_cot_loi"} của trường
+    - [triết lý giáo dục]{"entity":"thong_tin_truong","role":"triet_ly_giao_duc"} của trường
+    - [triet ly giao duc]{"entity":"thong_tin_truong","role":"triet_ly_giao_duc"} của trường
+    - [triết ly giao duc]{"entity":"thong_tin_truong","role":"triet_ly_giao_duc"} của trường
+    - [triet lý giao dục]{"entity":"thong_tin_truong","role":"triet_ly_giao_duc"} của trường
+    - [tlgd]{"entity":"thong_tin_truong","role":"triet_ly_giao_duc"} của trường
+    - [mục tiêu chung]{"entity":"thong_tin_truong","role":"muc_tieu"} của trường
+    - [mục tiêu]{"entity":"thong_tin_truong","role":"muc_tieu"} của trường
+    - [muc tieu]{"entity":"thong_tin_truong","role":"muc_tieu"} của trường
+    - [khau hieu]{"entity":"thong_tin_truong","role":"slogan"} của trường
+    - [slogan]{"entity":"thong_tin_truong","role":"slogan"} của trường
+    - [khẩu hiệu]{"entity":"thong_tin_truong","role":"slogan"} của trường
+    - [khẩu hieu]{"entity":"thong_tin_truong","role":"slogan"} của trường
+    - [khau hiệu]{"entity":"thong_tin_truong","role":"slogan"} của trường
+
+#-------------------------------LOc-------------------------------LOc-------------------------------------------------------------------------------------------
+
+- intent: ask_hello
+  examples: |
+    - xin chao
+    - hello
+    - hi
+    - xin chào
+    - chào
+    - chao
+    - hey
+    - chào anh
+    - chào em
+    - chào mừng bạn
+    - chào bot
+    - anh ơi
+    - em ơi
+    - hello bot
+    - hello em
+    - hello anh
+    - có ai không
+    - xjn chao
+    - hiii
+    - hii
+    - xin chào bạn
+    - xin chào anh
+
+- intent: ask_dang_ky_giay_xac_nhan
+  examples: |
+    - xin giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - tôi cần giấy [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - muốn xin giấy [tạm hoãn nv]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - cần giấy [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - đăng ký giấy [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - [chỗ nào]{"entity":"ask", "role":"where"} [đăng ký]{"entity":"ask", "role":"how"} giấy [tạm hoãn nghĩa vụ]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - nơi nào cấp giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - tôi cần xin giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} ở đâu
+    - địa điểm để làm thủ tục xin [hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} là ở đâu
+    - xin giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} ở đâu
+    - để xin [hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}, tôi cần đến đâu
+    - xin giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} tại đâu
+    - cơ quan nào cấp giấy [tạm hoãn nghĩa vụ quân sự]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - tôi cần đến đâu để xin giấy [tam hoan nvqs]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - đi đâu để xin giấy [tam hoan nv]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - làm thế nào để xin giấy [hoan nghia vu qsu]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - thủ tục xin giấy [hoan nghia vu]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - làm sao để xin giấy [tam hoan nghia vu]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - thủ tục để xin giấy [hoãn nvqs]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} là gì
+    - làm cách nào để nộp đơn xin [tam hoan nghia vu quan su]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - xin giấy [hoan nghia vu quan su]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} như thế nào
+    - xin đơn [tạm hoãn nghĩa vụ]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"} thế nào
+    - chỉ tôi cách xin đơn [tạm hoãn nghĩa vụ]{"entity":"giayxacnhan", "role":"giaytamhoanNghiaVu"}
+    - làm thế nào để xin giấy [xác nhận vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - tôi muốn xin giấy [xac nhan vay von]{"entity":"giayxacnhan", "role":"giayVayVon"}, xin hỏi thủ tục như thế nào
+    - vui lòng hướng dẫn tôi cách xin giấy [vay von]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - cho tôi biết địa chỉ để xin giấy [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - ai có thể cung cấp giấy [vvon]{"entity":"giayxacnhan", "role":"giayVayVon"} cho tôi
+    - tôi cần xin [vvốn]{"entity":"giayxacnhan", "role":"giayVayVon"} để làm [thủ tục vay vốn]{"entity":"giayxacnhan","role":"giayVayVon"}, xin hỏi ở đâu có thể làm
+    - có ai biết nơi nào cấp đơn xác nhận [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"} không
+    - vui lòng cho tôi thông tin về nơi xin giấy xác nhận [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - tôi muốn hỏi về quy trình xin giấy xác nhận [vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"}
+    - xin [đơn xác nhận vay vốn]{"entity":"giayxacnhan", "role":"giayVayVon"} tại đâu
+    - thủ tục để xin giấy [giảm thuế thu nhập cá nhân]{"entity":"giayxacnhan", "role":"giamthue"} là gì
+    - làm cách nào để nộp đơn xin [giảm thuế]{"entity":"giayxacnhan", "role":"giamthue"}
+    - xin đơn [giam thue]{"entity":"giayxacnhan", "role":"giamthue"} như thế nào
+    - xin đơn [giam thue thu nhap]{"entity":"giayxacnhan", "role":"giamthue"} thế nào
+    - chỉ tôi cách xin đơn [giảm thuế thu nhập]{"entity":"giayxacnhan", "role":"giamthue"}
+    - làm thế nào để xin giấy [giam thue thu nhap ca nhan]{"entity":"giayxacnhan", "role":"giamthue"}
+    - tôi muốn xin giấy [giảm thuế tnhap]{"entity":"giayxacnhan", "role":"giamthue"}, xin hỏi thủ tục như thế nào
+    - vui lòng hướng dẫn tôi cách xin giấy [giam thue tncn]{"entity":"giayxacnhan", "role":"giamthue"}
+    - cho tôi biết địa chỉ để xin giấy [giam thue tnhap]{"entity":"giayxacnhan", "role":"giamthue"}
+    - ai có thể cung cấp giấy [giảm thuế tncn]{"entity":"giayxacnhan", "role":"giamthue"} cho tôi
+    - tôi cần xin [giảm thuế tn]{"entity":"giayxacnhan", "role":"giamthue"} để làm [thủ tục vay vốn]{"entity":"giayxacnhan","role":"giamthue"}, xin hỏi ở đâu có thể làm
+    - có ai biết nơi nào cấp đơn xác nhận [miễn thuế thu nhập]{"entity":"giayxacnhan", "role":"giamthue"} không
+    - vui lòng cho tôi thông tin về nơi xin giấy xác nhận [mien thue thu nhap]{"entity":"giayxacnhan", "role":"giamthue"}
+    - tôi muốn hỏi về quy trình xin giấy xác nhận [miễn thuế tn]{"entity":"giayxacnhan", "role":"giamthue"}
+    - xin [miễn giảm thuế thu nhập cá nhân]{"entity":"giayxacnhan", "role":"giamthue"} tại đâu
+    - xin giấy [miễn giảm thuế thu nhập]{"entity":"giayxacnhan", "role":"giamthue"}
+    - tôi cần giấy [mien giam thue thu nhap]{"entity":"giayxacnhan", "role":"giamthue"}
+    - muốn xin giấy [miễn thuế]{"entity":"giayxacnhan", "role":"giamthue"}
+    - cần giấy [miễn giảm thuế]{"entity":"giayxacnhan", "role":"giamthue"}
+    - đăng ký đơn [miễn thuế thu nhập]{"entity":"giayxacnhan", "role":"giamthue"}
+    - [chỗ nào]{"entity":"ask", "role":"where"} [đăng ký]{"entity":"ask", "role":"how"} giấy [mien thue thu nhap]{"entity":"giayxacnhan", "role":"giamthue"}
+    - nơi nào cấp giấy [mien giam thue]{"entity":"giayxacnhan", "role":"giamthue"}
+    - tôi cần xin giấy [mien thue thu nhap ca nhan]{"entity":"giayxacnhan", "role":"giamthue"} ở đâu
+    - địa điểm để làm thủ tục xin [miễn thuế thu nhập cá nhân]{"entity":"giayxacnhan", "role":"giamthue"} là ở đâu
+    - xin giấy [miễn thuế tncn]{"entity":"giayxacnhan", "role":"giamthue"} ở đâu
+    - để xin [miễn giảm thuế tncn]{"entity":"giayxacnhan", "role":"giamthue"}, tôi cần đến đâu
+    - xin giấy [mien thue tncn]{"entity":"giayxacnhan", "role":"giamthue"} tại đâu
+    - cơ quan nào cấp giấy [miễn thuế tnhập cnhân]{"entity":"giayxacnhan", "role":"giamthue"}
+    - tôi cần đến đâu để xin giấy [miễn giảm thuế tnhap cnhan]{"entity":"giayxacnhan", "role":"giamthue"}
+    - đi đâu để xin giấy [miễn thuế tnhap]{"entity":"giayxacnhan", "role":"giamthue"}
+    - làm thế nào để xin giấy [mien giam thue]{"entity":"giayxacnhan", "role":"giamthue"}
+    - thủ tục xin giấy [miễn thuế]{"entity":"giayxacnhan", "role":"giamthue"}
+    - làm sao để xin giấy [miễn thuế tnhập]{"entity":"giayxacnhan", "role":"giamthue"}
+
+
+- intent: ask_nhan_tro_cap
+  examples: |
+    - làm sao để nhận [trợ cấp thương binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - nhận [trợ cấp con thương binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - [con thương binh]{"entity":"tro_cap", "value":"tro_cap"} nhận trợ cấp thế nào
+    - lam sao de nhan [tro cap con thuong binh]{"entity":"tro_cap", "value":"tro_cap"} liet si
+    - nhận [trợ cấp con thương binh liệt sĩ]{"entity":"tro_cap", "value":"tro_cap"} cần giấy tờ gì
+    - làm sao nhận [trợ cấp con bệnh binh]{"entity":"tro_cap", "value":"tro_cap"}, [thương binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - xin nhận [trợ cấp con thương binh]{"entity":"tro_cap", "value":"tro_cap"} tại địa phương
+    - xin nhan [tro cap con benh binh]{"entity":"tro_cap", "value":"tro_cap"} tai dia phuong
+    - xin nhan [tro cap]{"entity":"tro_cap", "value":"tro_cap"} giay to gi
+    - tôi cần nhận trợ cấp [thương binh]{"entity":"tro_cap", "value":"tro_cap"} cần làm gì ạ
+    - cần làm gì để nhận [trợ cấp thương binh]{"entity":"tro_cap", "value":"tro_cap"}, [bệnh binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - làm gì để nhận [trợ cấp con liệt sĩ]{"entity":"tro_cap", "value":"tro_cap"}
+    - lam gi de nhan [tro cap liet si]{"entity":"tro_cap", "value":"tro_cap"}
+    - thủ tục để nhận [trợ cấp bệnh binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - nhận [trợ cấp]{"entity":"tro_cap", "value":"tro_cap"}
+    - nhan [tro cap]{"entity":"tro_cap", "value":"tro_cap"}
+    - anh cho em hỏi để nhận trợ cấp [liệt sĩ] cần thủ tục gì ạ
+    - làm sao để nhận [trợ cấp bệnh binh]{"entity":"tro_cap", "value":"tro_cap"} z ạ
+    - lam cach tao de nhan duoc [tro cap thuong binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - [tro cap]{"entity":"tro_cap", "value":"tro_cap"}
+    - [liet si]{"entity":"tro_cap", "value":"tro_cap"}
+    - [tro cap liet si]{"entity":"tro_cap", "value":"tro_cap"}
+    - [tro cap benh binh]{"entity":"tro_cap", "value":"tro_cap"}
+    - xin [tro cap]{"entity":"tro_cap", "value":"tro_cap"} nhu the nao
+    - xin [tro cap thuong binh]{"entity":"tro_cap", "value":"tro_cap"} nhu the nao z ban
+
+- intent: ask_the_thu_vien_tthl
+  examples: |
+    - làm sao để xin [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - tôi cần làm [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - cách làm [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} thành phố
+    - cho em xin [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - chỉ cách làm [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - làm sao để có [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - lam sao xin duoc [the thu vien]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - chi toi cach lam [the thu vien]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - toi muon xin [the tv]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - xin [thẻ tv]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - cần làm [thẻ tv]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - bạn có thể chỉ mình cách làm [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} được không
+    - làm sao để xin [thẻ tthl]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} đại học cần thơ
+    - tôi cần làm [thẻ trung tâm học liệu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - cách làm [thẻ tthL Đh  ct]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} thành phố
+    - cho em hỏi cách xin [thẻ trung tâm học liệu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} là sao z ạ
+    - chỉ cách làm [thẻ tthl đại học cần thơ]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - làm sao để có [thẻ ttâm hliệu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - lam sao xin duoc [the trung tam hoc lieu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - chi toi cach lam [the trung tam hoc lieu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - toi muon xin [the trung tam hoc lieu Dh ct]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - xin [thẻ trung tâm hl]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - cần làm [thẻ tt học liệu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - bạn có thể chỉ mình cách làm [thẻ tt học liệu đại học cần thơ]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} được không
+    - tôi cần biết cách làm [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - làm sao xin được [thẻ thư viện]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - em can lam [the tam tam hoc lieu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} dh can tho
+    - hỗ trợ tôi làm [thẻ trung tâm học liệu]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - toi can xin [the tthl]{"entity":"the_tv_tthl", "value":"the_tv_tthl"}
+    - xin [the tthl]{"entity":"the_tv_tthl", "value":"the_tv_tthl"} nhu the nao
+
+- intent: ask_giay_cong_tac
+  examples: |
+    - làm sao để xin [giấy công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - lam sao de xin [giay cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - lam sao de xin [giay cong lenh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - làm sao để xin [giấy công lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - tôi cần xin [giấy công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - chỉ tôi cách để xin [giấy ct]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - hướng dẫn anh cách xin [giấy công lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"} được không
+    - chi minh cach lay [giay cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"} voi a
+    - thủ tục để xin [giấy công tác]{"entity":"giay_ct", "value":"giay_cong_tac"} là như thế nào
+    - làm gì để có [giấy công lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - làm sao để xin được [giấy cL]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - làm thế nào có [giấy ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - để xin [giay clenh]{"entity":"giay_ct", "value":"giay_cong_tac"} cần thủ tục gì
+    - thu tuc xin [giấy clệnh]{"entity":"giay_ct", "value":"giay_cong_tac"} như thế nào
+    - xin [giấy ctác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - cách xin [giấy công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - bạn cho mình hỏi cách xin giấy [ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - de xin giay [cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"} can thu tuc gi
+    - [giay cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ctác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay ctác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy công lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy cl]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ct]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy công lenh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy cong lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong lenh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy công lenh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy công lệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy clệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy clenh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay clệnh]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ctác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay ctac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay công tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giấy ctác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay cong tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay công tac]{"entity":"giay_ct", "value":"giay_cong_tac"}
+    - [giay công tác]{"entity":"giay_ct", "value":"giay_cong_tac"}
+
+- intent: ask_cap_the_sv
+  examples: |
+    - tôi cần lại [thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - giúp tôi cấp lại [thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - hỗ trợ cấp lại [the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - xin cấp [thẻ SV]{"entity":"the_sinh_vien", "value":"cap_the_sv"} ở đâu
+    - tôi có thể xin cấp lại [thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"} ở đâu z
+    - tôi cần xin cấp lại [thẻ SV]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - cap lai [the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - xin cấp lại [the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"} ở đâu
+    - cho mình hỏi xin lại [thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"} ở đâu z ạ
+    - làm sao để xin lại [thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - yêu cầu cấp lại [thẻ svien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - hỗ trợ cấp lại [thẻ svien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - làm sao để xin cấp lại [the svien]{"entity":"the_sinh_vien", "value":"cap_the_sv"} vậy ạ
+    - cho em hỏi làm cách nào để xin cấp lại [thẻ sviên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - xin cấp [thẻ sih viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"} cần những giấy tờ gì
+    - hỗ trợ cấp lại [the sih vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin cấp lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin cấp thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp lại thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp lại thẻ sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp lại the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap lai the sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap lai thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap lai the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [lam lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [lam lai the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [hỗ trợ cấp lại thẻ SV]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [bị mất thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [bị mất thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lai thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lại the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin lam lai thẻ sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin lam lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lai thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin làm lai the SV]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [xin cap lai the SV]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [lam lai the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [làm lại thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [lam lai the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp mới thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap moi the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp mới thẻ sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap moi the sv]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp mới thẻ sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp mới the sinh vien]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cấp moi thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap mới thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap moi thẻ sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+    - [cap moi the sinh viên]{"entity":"the_sinh_vien", "value":"cap_the_sv"}
+
+- intent: ask_hoc_bong
+  examples: |
+    - làm sao để xin [học bổng]{"entity":"hoc_bong", "value":"hoc_bong"}{"entity":"hoc_bong", "value":"hoc_bong"}
+    - điều kiện [học bổng]{"entity":"hoc_bong", "value":"hoc_bong"} là gì
+    - [học bổng khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - tôi cần xin [học bổng khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - bạn có thể cho mình biết các loại giấy tờ để xin [học bổng khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"} ko
+    - anh cho em hoi xin [hoc bong khuyen hoc]{"entity":"hoc_bong", "value":"hoc_bong"} nhu the nao vay a
+    - cac giay to lien qua khi xin [hoc bong kh]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - admin cho mình hỏi khi xin [học bổng khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"} cần hồ sơ gì
+    - làm cách nào để được cấp [học bổng Kh]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - hồ sơ yêu cầu khi xét [hoc bong kh]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - giấy tờ cần thiết để xét [học bổng khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - bạn cho mình hỏi để xin [hbKh]{"entity":"hoc_bong", "value":"hoc_bong"} cần những hồ sơ gì
+    - nộp hồ sơ xin [hbkh]{"entity":"hoc_bong", "value":"hoc_bong"} ở đâu
+    - [hb khuyen hoc]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - []{"entity":"hoc_bong", "value":"hoc_bong"}hb khuyến học]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng kh]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hb khuyến hoc]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - hồ sơ xin cấp [học bổng tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"} là gì
+    - [học bổng tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng tài tro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hbtt]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hb tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - làm sao để xin [hoc bong]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hoc bong]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hoc bổng]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - điều kiện [học bổng]{"entity":"hoc_bong", "value":"hoc_bong"} là gì
+    - [học bổng tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - tôi cần xin [học bổng tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - bạn có thể cho mình biết các loại giấy tờ để xin [học bong tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"} ko
+    - anh cho em hoi xin [hoc bong tai tro]{"entity":"hoc_bong", "value":"hoc_bong"} nhu the nao vay a
+    - cac giay to lien qua khi xin [hoc bong ttro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - admin cho mình hỏi khi xin [học bổng ttrợ]{"entity":"hoc_bong", "value":"hoc_bong"} cần hồ sơ gì
+    - [học bổng ttrợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - hồ sơ để xin [hb ttro]{"entity":"hoc_bong", "value":"hoc_bong"} là gì z ạ
+    - [hoc bong ttro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hoc bong t tro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng được tài trợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng dc tai tro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [hoc bong duoc tai tro]{"entity":"hoc_bong", "value":"hoc_bong"}
+    - [học bổng được ttrợ]{"entity":"hoc_bong", "value":"hoc_bong"}
+
+- intent: ask_baoluu_thoihoc
+  examples: |
+    - tôi cần [bảo lưu kết quả học tập]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo lưu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu ket qua hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo lưu]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo luu]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao lưu]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - để [bảo lưu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"} cần làm gì
+    - cach nao de [bao luu ket qua]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"} hoc tap
+    - tôi cần [bảo lưu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - để [bảo lưu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"} cần nộp hồ sơ gì
+    - để [bao luu ket qua]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"} can nop giay to gi
+    - toi can ho [bao luu ket qua]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"} va [hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - nộp đơn [thôi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - tôi cần nop don [thoi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - chỉ tôi cách [bảo lưu kq]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - chỉ tôi cách nộp đơn [thôi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - đi [du lịch nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - di [du lich nuoc ngoai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi nước ngoai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi nước khác]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi ngoại quốc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi nuoc ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi nuoc ngoai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di nuoc ngoai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di nuoc ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [thoi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [nghỉ học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [nghi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [nghi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu ket qua hoc tap]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di du hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di du lich nuoc ngoai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi du lịch nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo lưu kq học tập]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu ket qua va hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [dang ky hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [dang ky hoc tiep tuc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [xin bao luu kq]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [xin thoi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [xin nghi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [nghi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu kq]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [thoi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [tam nghi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [tam nghi]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bo hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [du lich]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi học lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di học lại]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di hoc lại]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di học lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [thôi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo lưu ket qua]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bảo lưu kết qua]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao lưu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [bao luu kết quả]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [thôi hoc]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [thoi học]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [du lịch]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [du lich]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi du lich]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di du lich nước ngoài]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [di hoc lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi học lai]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+    - [đi hoc lại]{"entity":"baoluu_thoihoc", "value":"baoluu_thoihoc"}
+
+- intent: ask_caplai_bhYt
+  examples: |
+    - [cấp lại thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại thẻ bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm yt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bh y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm yte]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm ytế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cap lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cap lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin cấp lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin cấp bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin lai bao hiem yte]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [xin lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm yt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bh y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm yte]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm ytế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [lam lai bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [lam lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bao hiểm của tôi bị sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay đổi thông tin thẻ bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [làm lại thẻ bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [lam lai the bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sai thông tin thẻ bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm của tôi bị sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bh y tế không đúng thông tin]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm bị sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thông tin thẻ bảo hiểm ko đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thông tin thẻ bảo hiểm sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bhYt k đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm y tế k đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm y tế ko đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [the bao hiem]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [the bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay đổi thông tin thẻ bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sửa lại thẻ bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sua lai the bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sua lai thong tin the bao hiem]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay đổi thông tin thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay đổi thông tin thẻ bảo hiểm]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay đổi thông tin trên thẻ bảo hiểm]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay doi thong tin the bao hiem y te]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thay doi thong tin the bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa thông tin thẻ bhyt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa lại thẻ bhYt]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa bảo hiểm yte]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa bảo hiểm ytế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [chỉnh sửa lại thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm bị sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm sai thông tin]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [the bao hiem sai thong tin]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm không đúng thông tin]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [the bao hiem sai thong tin]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thông tin trên thẻ bảo hiểm không đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thông tin trên thẻ bảo hiểm ko đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thông tin trên thẻ bảo hiểm k đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [cấp lại thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sửa lại thông tin thẻ bảo hiểm y tế]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thẻ bảo hiểm y tế của tôi không đúng]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [sửa thông tin thẻ bảo hiểm]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+    - [thong tin the bao hiem y te bi sai]{"entity":"the_bhYt", "value":"caplai_thaydoi_bhYt"}
+
+- intent: ask_caplai_qldt
+  examples: |
+    - [tài khoản quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoan quan ly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý đào tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qlý đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qly đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qly dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qlý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qlý đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qlý dtao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qlý dtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql đào tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql đao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan ly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qly đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan ly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan ly dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan ly đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qlý đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qlý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qlý dtao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qlý dtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qlý daotao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản ql đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý dt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý đtao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lý đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quan lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoản quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoản quan ly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoản quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quản lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quản lý đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản qly đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản qlý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quan ly dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quản ly dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quản ly đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quan lý đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoan qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan qldt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quản lí đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan quản lí đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoan quan li dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk khoản quản li đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản quản lí đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tài khoản qli đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lí đào tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan lí đao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lí đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản qlí đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tkhoản quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoan quản li dao tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tai khoan quản lí đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lí đào tạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan li dao tao]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quan li Dt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lí đt]{"entity":"tk_qldt", "value":"caplai_qldt"}
+    - [tk quản lí đtạo]{"entity":"tk_qldt", "value":"caplai_qldt"}
+
+- intent: ask_caplai_email_sv
+  examples: |
+    - [tôi cần cấp lại email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai dia chi email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email dia chi email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [xin lại email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu email s viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu địa chỉ email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu địa chỉ email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk dia chi email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau dia chi email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu địa chỉ email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai dia chi email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai dia chi email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lai dia chi email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk địa chỉ email]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu email s viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mat khau email sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mat khau email svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk email sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai dia chi email sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ email sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [tôi cần cấp lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai dia chi mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail dia chi mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [xin lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mk mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu mail s viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu địa chỉ mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu địa chỉ mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quên mật khẩu mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk dia chi mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau dia chi mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mat khau mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu địa chỉ mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai dia chi mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại địa chỉ mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai dia chi mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lai dia chi mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mk địa chỉ mail]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lấy lại mật khẩu mail s viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mat khau mail sinh vien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mat khau mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk mail sviên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [lay lai mk mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [quen mk mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cap lai dia chi mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại mail sv]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail sinh viên]{"entity":"caplai_email_sv", "value":"caplai_email"}
+    - [cấp lại địa chỉ mail svien]{"entity":"caplai_email_sv", "value":"caplai_email"}
+
+- intent: ask_caplai_thanhphi_bhtN
+  examples: |
+    - [cấp lại bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bao hiem tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lai bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bao hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cấp lại bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiem tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bh tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [cap lai bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [xin lại bảo hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bh tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bh tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bhiem tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bhiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phí bao hiểm tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiểm tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bh tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bh tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bhiem tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bhiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh phi bao hiểm tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiem]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bh tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bh tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bhiem tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bhiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toán bao hiểm tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiểm tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bh tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bh tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bhiem tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bhiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiểm tnan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [thanh toan bao hiem]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bảo hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bảo hiểm tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bảo hiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bh tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bhiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bhiểm tnạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bh tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [trả phí bảo hiểm]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bảo hiểm tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bao hiem tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bảo hiểm tai nan]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bảo hiểm tN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bhtN]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bao hiem tn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bhtn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+    - [bao hiem tai nạn]{"entity":"caplai_thanhphi_bhtn", "value":"caplai_thanhphi_bhtN"}
+
+
+
+
+- intent: ask_thongtin_khoa_phong_ban
+  examples: |
+    - tôi cần [thông tin liên hệ]{"entity":"ask", "role":"info"} của [khoa y]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [khoa y]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [ykhoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [khoa y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [khoa YK]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [khoa y]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"} 
+    - [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [Y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - tôi cần [thông tin liên hệ]{"entity":"ask", "role":"info"} của [dao tao dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo đại hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đt Dh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dt Đh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [Đt Đh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dtdh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [ĐtĐh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đtđh]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tao đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tao dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tao đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tạo đai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tao đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tạo đại hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tao dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tạo dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [dao tao đai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đao tao đai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đao tao đại hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đao tao đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đao tạo đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - [đào tao đai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"dao_tao_dai_hoc"}
+    - tôi cần [thông tin liên hệ]{"entity":"ask", "role":"info"} của [hlkn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hLKN]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hlkn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện KN]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện kỹ nag]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huân luyện ky năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huan luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huan luyen kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyen KN]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huan luyen KN]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huân luyện kn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huân luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huân luyện ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huan luyen kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện ky năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huấn luyện kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [huân luyên ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hl kn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hl kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hl ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hl ky năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hl kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyen knang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyen kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyen kỹ nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyen knăng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyện kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [hluyện kn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - tôi cần [thông tin liên hệ]{"entity":"ask", "role":"info"} của phòng [dt dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_dai_hoc"}
+    - cho tôi xin [thông tin liên lạc]{"entity":"ask", "role":"info"} của khoa [răng hàm mặt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"}
+    - bạn có thể cho tôi [thông tin liên hệ]{"entity":"ask", "role":"info"} khoa [rhm]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"} được không
+    - tôi muốn xin [thông tin]{"entity":"ask", "role":"info"} về phòng [công tác sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - tôi muốn xin [thông tin]{"entity":"ask", "role":"info"} về phòng [công tác sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - cho tôi cách [liên hệ]{"entity":"ask", "role":"info"} phòng [đào tạo đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_dai_hoc"}
+    - cách [liên lạc]{"entity":"ask", "role":"info"} với phòng [đào tạo sau đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [mail]{"entity":"ask", "role":"email"} của phòng [dao tao sau dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"} là gì
+    - [đào tạo sau đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tạo sau dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đt sau đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [Đt sau dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [Dt sau dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tao sau đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tao sau dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đao tao sau đại học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đt sau Đh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tạo sau Đh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tạo sau đh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau dh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tạo sau dai hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau đại hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tao sau đại hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tạo sau dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [đào tạo sau đai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dao tao sau dai học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [Đt sau Đh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dt sau Dh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [dt sau dh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_sau_dai_hoc"}
+    - [mail]{"entity":"ask", "role":"email"} của phòng [hành chánh tổng hợp]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"} là gì
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với khoa [y hoc co truyen]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen", "value":"y_hoc_co_truyen"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hành chính tổng hợp]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hành chính]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hanh chinh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phong [hành chánh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hanh chanh tong hop]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với [hanh chinh tong hop]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"hanh_chanh_tong_hop"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với [khoa răng hm]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với [hợp tác qtế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [nghiên cứu khoa học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hội nghị quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hoi nghi quoc te]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [htqt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hợp tác qte]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hop tac quoc te]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hợp tác qtế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cứu Kh hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cuu khoa hoc hop tac quoc te]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cứu khoa học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cuu khoa học, hợp tác quoc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nckh-htqt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cứu khoa học - hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cứu khoa học - htqt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nckh- hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cưu khoa học hợp tác quốc tê]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nghiên cứu khoa học hơp tác quoc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [hợp tac quốc te]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [htqt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [nckh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hợp tác quốc tế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với phòng [hop tac quoc te]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - cách [liên lạc]{"entity":"ask", "role":"info"} với phòng [NcKh-htQt]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"nckh_htqt"}
+    - [làm sao đến]{"entity":"ask", "role":"where"} phòng [hội nghị qtế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [làm sao đến]{"entity":"ask", "role":"where"} phòng [qtri thiet bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quan tri thiet bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qttb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị thiet bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị thiet bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị thiêt bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị thiết bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quan trị thiet bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qtri thiết bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qtrị thiết bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị tb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quan trị thiết bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quan tri thiêt bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản trị thiết bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quản tri thiết bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [quan tri thiet bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qt thiết bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qttb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [Qttb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [qtri tbi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [làm sao đến]{"entity":"ask", "role":"where"} phòng [quản trị thiết bị]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - [làm sao đến]{"entity":"ask", "role":"where"} phòng [nckh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"nckh_htqt"}
+    - [quan tri thiet bi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_tri_thiet_bi"}
+    - tôi [cần tìm phòng]{"entity":"ask", "role":"where"} [tài chính kế toán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - tôi [cần tìm phòng]{"entity":"ask", "role":"where"} [quan ly du an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [vị trí]{"entity":"ask", "role":"where"} của phòng [tổ chức cán bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức cán bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chuc can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chuc can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tccb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chuc cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chuc cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức cán bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chuc can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức can bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chuc cán bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chuc cán bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chức cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chưc can bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chức cán bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chức can bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chưc cán bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chức can bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tổ chuc can bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức cán bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức can bô]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức cán bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [to chức cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chức cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tô chuc cán bô]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tc cb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [tccb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"to_chuc_can_bo"}
+    - [vị trí]{"entity":"ask", "role":"where"} của phòng [quản lý dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lý dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quan ly dự an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quan lý dự an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lý dự an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [ql dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [ql du an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [qli dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí dư án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí dư an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản li dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí du an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quan li dự an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản li dán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [qlí DA]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [ban quản lí dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [ban quan li du an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quan lí dự án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quan li du án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí dự an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí du an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản lí dư an]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản li dư án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - [quản li dư án]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - tôi cần biết vài [thông tin]{"entity":"ask", "role":"info"} về phòng [quản lý dự án xây dựng trường]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"quan_ly_du_an_truong"}
+    - làm sao [liên lạc]{"entity":"ask", "role":"info"} được với phòng [thông tin và truyền thông]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thong_tin_truyen_thong"}
+    - tôi muốn [đến]{"entity":"ask", "role":"where"} phòng [đảm bảo chất lượng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dam_bao_chat_luong"}
+    - phòng [khảo thí]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"} ở [vị trí nào]{"entity":"ask", "role":"where"}
+    - [khao thi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khảo thí]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khảo thi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khao thi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khỏa thi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khảo thí]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - [khảo thi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khao_thi"}
+    - phòng [thanh tra pháp chế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"} [liên hệ]{"entity":"ask", "role":"info"} [thế nào]{"entity":"ask", "role":"how"}
+    - [thanh tra pháp che]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra phap che]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra pháp che]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra phap chế]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra pche]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [tt phap che]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [ttpc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra pháp chê]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra phap chê]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - [thanh tra pháp che]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"thanh_tra_phap_che"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với [trung tâm đào tạo theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt đào tạo theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt đào tạo theo nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt đào tạo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tâm đào tạo theo nhu cầu Xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xa hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xa hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xã hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xa hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xã hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo ncxh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cau xa hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cau xã hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cầu xa hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cầu xã hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [ttdt theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cau xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cau xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cầu xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cầu xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao theo nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao theo nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt theo nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt theo nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nc xa hoi]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nc xã hội]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cầu xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dt t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nc xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [trung tam dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - [tt dao tao t nhu cau xh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dao_tao_theo_nhu_cau_xa_hoi"}
+    - làm sao để [liên hệ]{"entity":"ask", "role":"info"} với khoa [yhct]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - bạn cho mình hỏi làm sao để [liên lạc]{"entity":"ask", "role":"info"} với [trung tâm dịch vụ và hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dich vu va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv v ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [tt dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ht sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dv va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu và ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va hỗ tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho trợ sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vụ va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu và ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va hỗ tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va ho trợ sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va ho tro sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vụ va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vu và ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vu va hỗ tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vu va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ và ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va hỗ tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va ho trợ sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va ho tro sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu và hỗ trợ sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu và ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vụ va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ và ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vụ và ho tro sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vụ và ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vụ và ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dịch vụ và hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dich vu va hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vu va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vu va hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ va ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ va hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ và ho trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ và hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ và hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu va ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tâm dịch vụ hỗ trợ sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [trung tam dich vu ho tro sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [ttdvhtsv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - [ttdv htsv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"trung_tam_dich_vu_va_ho_tro_sinh_vien"}
+    - đơn vị [huấn luyện kỹ năng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [thông tin]{"entity":"ask", "role":"info"} [bệnh viện]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"benh_vien"}
+    - [thông tin]{"entity":"ask", "role":"info"} [công đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [benh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"benh_vien"}
+    - [thông tin]{"entity":"ask", "role":"info"} [hlkn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"}
+    - [đảng bộ cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"} có [email]{"entity":"ask", "role":"email"} là gì vậy bạn
+    - [cong doan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"} có [email]{"entity":"ask", "role":"email"} là gì vậy bạn
+    - [công đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [đoàn thanh niên - hội sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [địa chỉ email]{"entity":"ask", "role":"email"} [khoa y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_y_khoa"} là gì vậy ạ
+    - [email]{"entity":"ask", "role":"email"} của khoa [răng hàm mặt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"}  là gì zậy
+    - [email]{"entity":"ask", "role":"email"} của khoa [đoàn thanh niên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}  là gì zậy
+    - cho tôi xin [email]{"entity":"ask", "role":"email"} [khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - cho tôi xin [email]{"entity":"ask", "role":"email"} [khoa dược]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"duoc"}
+    - [email]{"entity":"ask", "role":"email"} của khoa [doan thanh nien]]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}  là gì zậy
+    - [đoàn thanh nien sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh nien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan thanh nien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doàn thanh nien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoan thanh nien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh nien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tN SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan tn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan tN]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan thanh nien SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan thanh niên sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doàn thanh nien sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh nien svien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh nien sviên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoan thanh niên sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoan thanh nien sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên hội sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên hội SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tN hội SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan tN hoi SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan thanh nien hoi SV]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan tN hoi sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoan thanh niên hội svien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tn hội sviên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hội sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hội sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hội sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hoi sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hoi sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doan thanh niên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [họi sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [họi sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [họi sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [hội sviên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tnien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [doàn tnien hội sv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn thanh niên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - [đoàn tn họi sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"doan_thanh_nien_hoi_sinh_vien"}
+    - bạn cho tôi biết địa chỉ [email]{"entity":"ask", "role":"email"} của [khoa điều dưỡng - kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} được không
+    - tôi cần biết [hộp thư điện tử]{"entity":"ask", "role":"email"} của khoa [y tế công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - tôi cần biết [hộp thư điện tử]{"entity":"ask", "role":"email"} của khoa [khoa hoc co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - cho tôi [địa chỉ email]{"entity":"ask", "role":"email"} của khoa [khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - tôi muốn biết [thư điện tử]{"entity":"ask", "role":"email"} của khoa [y học cổ truyền]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - tôi muốn biết [số điện thoại]{"entity":"ask", "role":"phone", "value":"phone_number"} của [khoa y]{"entity":"khoa_phong", "role":"ten_khoa_phong"}
+    - cho tôi [số liên lạc]{"entity":"ask", "role":"phone", "value":"phone_number"} của khoa [răng hàm mặt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"}
+    - tôi cần [số máy liên lạc]{"entity":"ask", "role":"phone", "value":"phone_number"} của [khoa duoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"duoc"}
+    - khoa [điều dưỡng - kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} có [số máy]{"entity":"ask", "role":"phone", "value":"phone_number"} là gì
+    - [điều dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu duong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều duong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dương]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều duong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [ddieu dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điêu dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điêu dương]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [y thuat y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu dương]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}  
+    - [dieu dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dưỡng kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dưỡng ktyh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu duong ky thuat y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dưỡng kỹ thuật y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điều dương kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu duong ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điêu dưỡng kỹ thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [dieu duong ky thuat]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [điêu dưỡng kỹ thuat y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [ky thuat y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuât y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - [kỹ thuật y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} 
+    - khoa [kỹ thuật y học]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}  có [số máy]{"entity":"ask", "role":"phone", "value":"phone_number"} là gì
+    - [khoa dược]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"duoc"} có [số máy]{"entity":"ask", "role":"phone", "value":"phone_number"} là gì
+    - khoa [dieu duong ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"} có [số máy]{"entity":"ask", "role":"phone", "value":"phone_number"} là gì
+    - [điều dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}
+    - [dieu duong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}
+    - [khoa điều dưỡng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}
+    - [ky thuat y hoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dieu_duong_ky_thuat_y_hoc"}
+    - [ytcc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y te cong cong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [yt cong cong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế cong cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [yt công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [yt công cong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế cong cong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y te cong cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y te cong cọng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế cong cọng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y te cong cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y te công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tê công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tê cong cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tê cong cọng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [Ytcc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [ytcc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế cc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - [y tế ccong]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"}
+    - khoa [y tế công cộng]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_te_cong_cong"} có [sdt]{"entity":"ask", "role":"phone", "value":"phone_number"} là gì z
+    - tôi muốn biết [số máy liên hệ]{"entity":"ask", "role":"phone", "value":"phone_number"} của khoa [khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [sdt]{"entity":"ask", "role":"phone", "value":"phone_number"} của khoa [y học cổ truyền]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - [sdt]{"entity":"ask", "role":"phone", "value":"phone_number"} của khoa [duoc]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"duoc"}
+    - [thông tin]{"entity":"ask", "role":"info"} [yhct]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - [đường đi]{"entity":"ask", "role":"where"} tới khoa [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_y_khoa"}
+    - [đường đi]{"entity":"ask", "role":"where"} tới khoa [rang ham mat]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"ngành Răng hàm mặt"}
+    - [đường đi]{"entity":"ask", "role":"where"} tới khoa [y khoa]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"khoa_y_khoa"}
+    - [đường đi]{"entity":"ask", "role":"where"} tới khoa [y hoc co truyen]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - [đường đi]{"entity":"ask", "role":"where"} tới khoa [yhct]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"y_hoc_co_truyen"}
+    - [vị trí]{"entity":"ask", "role":"where"} của khoa [y học cổ truyền]{"entity":"khoa_phong", "role":"ten_khoa_phong","value":"y_hoc_co_truyen"}
+    - anh cho em hỏi [địa điểm]{"entity":"ask", "role":"where"} của phòng [công tác sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - phòng [đảng bộ cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"} ở [chỗ nào]{"entity":"ask", "role":"where"}
+    - [đảng bộ cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [dang bo co so]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bo co sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [db co sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bộ cs]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bo cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bộ co sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bo cơ so]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [dang bo]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [dang bo cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [dang bo co sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bọ cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bo co sơ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bộ cơ so]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [đảng bộ]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - [dang bo cơ sở]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"dang_bo_co_so"}
+    - phòng [ctsv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"} ở [chỗ nào]{"entity":"ask", "role":"where"}
+    - phòng [công đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"} [ở đâu]{"entity":"ask", "role":"where"}
+    - [cong doan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [công doan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [công đoan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [công đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong đoan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [công doàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong doàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong đoàn]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [công đoan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cong đoan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_doan"}
+    - [cách nào]{"entity":"ask", "role":"how"} đi đến khoa [răng hàm mặt]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"ngành Răng hàm mặt"} vậy bạn
+    - [cách nào]{"entity":"ask", "role":"how"} đi đến phòng [ctsv]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"} vậy bạn
+    - toi can [thong tin]{"entity":"ask", "role":"info"} cua phong [cong tac sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - toi can [thong tin]{"entity":"ask", "role":"info"} cua khoa [khoa hoc co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học cơ ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [Khcb]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [Kh cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [kh co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [kh cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc co bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc co ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học cơ ban]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa hoc cơ bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - [khoa học co bản]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"khoa_hoc_co_ban"}
+    - email của phòng [huan luyen ky nang]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"huan_luyen_ky_nang"} là gì
+    - cho tôi xin thông tin của phong [cong tac sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - so dien thoai cua phong [công tác sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - số điện thoại của phòng [công tác sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - [cong tác sinh viên]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - [công tac sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - [công tác sinh vien]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"cong_tac_sinh_vien"}
+    - phòng [tài chính]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - tôi muốn đến phòng [tài chính]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - phòng [tai chính]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - phòng [tài chinh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - phong [tai chinh]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tai chinh ke toan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chính kế toán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chính ke toan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tai chinh ke toan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chinh kế toán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chinh ke toan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chinh ke toán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chính ke toán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tài chính kế toan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tchinh ktoan]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+    - [tchinh ktoán]{"entity":"khoa_phong", "role":"ten_khoa_phong", "value":"tai_chinh_ke_toan"}
+
+
+
+
+# loc doi tuong tuyen sinh
+  examples:  |
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [doi tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyên sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [đối tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyen sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [doi tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyểnsinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doituong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyensinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doi tuog]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sih]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyểnn sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [con người]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuỷene sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [sinh viên]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyểnn sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [Ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyểnn sinh chính quy]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [học sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh chinh quy]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hoc sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyểnn sinh chinh qui]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hoc sih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} được [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hocsih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} duoc [tuyểnn sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hocsinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doi tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [đối tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doi tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doituong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doituong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [doi tuog]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [Ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [con người]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [sinh viên]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [học sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hoc sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hoc sih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [hocsih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hocsinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doi tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [đối tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [doi tuong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [doituong]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [doi tuog]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [con người]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [sinh viên]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [đối tượng]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [Ai]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [học sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hoc sinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"}
+    - [hoc sih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hocsih]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 
+    - [hocsinh]{"entity":"doi_tuong", "role":"doi_tuong_tuyen_sinh"} [tuyển sinh]{"entity":"tuyen_sinh", "role":"thong_tin_tuyen_sinh"} 

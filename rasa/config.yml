@@ -1,0 +1,80 @@
+recipe: default.v1
+assistant_id: 20240110-074001-foggy-compressor
+language: vi
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
+  # - name: FallbackClassifier
+  #   threshold: 0.6
+  #   ambiguity_threshold: 0.6
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+    # core_fallback_threshold: 0.6
+    # core_fallback_action_name: "action_chatgemini_fallback"
+    # enable_fallback_prediction: true
+  - name: UnexpecTEDIntentPolicy
+    max_history: 10
+    epochs: 100
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true
+
+
+# recipe: default.v1
+# assistant_id: 20240110-074001-foggy-compressor
+# language: vi
+# pipeline:
+#   - name: SpacyNLP
+#   - name: SpacyTokenizer
+#   - name: SpacyFeaturizer
+#   - name: RegexFeaturizer
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: char_wb
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: FallbackClassifier
+#     threshold: 0.7
+#     ambiguity_threshold: 0.7
+# policies:
+#   - name: MemoizationPolicy
+#   - name: RulePolicy
+#     core_fallback_threshold: 0.7
+#     core_fallback_action_name: "action_chatgemini_fallback"
+#     enable_fallback_prediction: true
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 10
+#     epochs: 100
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 100
+#     constrain_similarities: true
+
+
+
+# policies:
+#   - name: UnexpecTEDIntentPolicy
+#     nlu_threshold: 0.7  # Ngưỡng độ tin cậy cho ý định
+#     fallback: true  # Có sử dụng chính sách fallback không

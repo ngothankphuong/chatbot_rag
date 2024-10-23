@@ -1,0 +1,25 @@
+1 y khoa
+2 y học dự phòng 
+3 y học cổ truyền
+4 dược học
+5 điều dưỡng
+6 hộ sinh
+7 răng hàm mặt
+8 kỹ thuật xét nghiệm hình ảnh y học
+9 kỹ thuật hình ảnh y học
+10 y tế công cộng
+
+
+hỏi về giấy xác nhận : 
+    + cach xin giay
+    + hỏi quy trình xin giấy xác nhận
+    + hỏi địa điểm
+    + hỏi thời gian 
+    + nơi nhận giấy
+    + thời gian nhận giấy
+
+
+hỏi về các phòng ban: thông tin khoa
+    + sdt
+    + email lien hệ
+    + địa chỉ
