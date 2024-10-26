@@ -390,8 +390,3 @@ if __name__ == '__main__':
     global docsearch
     docsearch = FAISS.load_local(path_for_FAISS, CohereEmbeddings(cohere_api_key=api_key,model="embed-multilingual-v3.0"),allow_dangerous_deserialization=True)
     app.run(host='0.0.0.0', port=5000)
-
-# D:\Workspace-CTU\LUANVAN\chatbot-rag\test\Lib\site-packages\langchain\chains\retrieval_qa\base.py
-# D:\Workspace-CTU\LUANVAN\chatbot-rag\test\Lib\site-packages\langchain\retrievers\multi_query.py
-# D:\Workspace-CTU\LUANVAN\chatbot-rag\test\Lib\site-packages\langchain\chains\history_aware_retriever.py
-# D:\Workspace-CTU\LUANVAN\chatbot-rag\test\Lib\site-packages\langchain\chains\combine_documents\stuff.py
